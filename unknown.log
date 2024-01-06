@@ -1,0 +1,4 @@
+2024-01-05 17:41:22,903 [main] DEBUG  com.lct.HelloWorld -%PARSER_ERROR[kvp] -Hello world.
+2024-01-05 17:41:22,917 [main] DEBUG  com.lct.HelloWorld -%PARSER_ERROR[kvp] -tom:Hello world.
+2024-01-05 17:41:22,917 [main] INFO  com.lct.HelloWorld -%PARSER_ERROR[kvp] -tom:Hello world.
+2024-01-05 17:41:22,917 [main] ERROR  com.lct.HelloWorld -%PARSER_ERROR[kvp] -tom:Hello world.

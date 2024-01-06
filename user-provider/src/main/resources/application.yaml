@@ -1,0 +1,43 @@
+server:
+  port: 8884
+spring:
+  application:
+    name: user-provider
+  boot:
+    admin:
+      client:
+        url: http://127.0.0.1:9090
+eureka:
+  client:
+    serviceUrl: # eureka server的路径
+      defaultZone: http://localhost:8882/eureka/, #把 eureka 集群中的所有 url 都填写了进来，也 可以只写一台，因为各个 eureka server 可以同步注册表
+    prefer-ip-address: true #自定义实例显示格式，加上版本号，便于多版本管理，注意是ip-address
+    instance-id: ${spring.application.name}:${spring.cloud.client.ip-address}:${server.port}
+    healthcheck:
+      enabled: true
+datasource:
+  type: com.alibaba.druid.pool.DruidDataSource
+  url: jdbc:mysql://127.0.0.1:3306/xc_user
+  username: root
+  password: root
+  driver-class-name: com.mysql.jdbc.Driver
+  minIdle: 5
+  maxActive: 20
+  initialSize: 1
+  timeBetweenEvictionRunsMillis: 3000
+  minEvictableIdleTimeMillis: 300000
+  validationQuery: SELECT 'ZTM' FROM DUAL
+  testWhileIdle: true
+  testOnBorrow: false
+  testOnReturn: false
+  maxWait: 60000
+mybatis:
+  typeAliasesPackage: com.lct.study.bean
+  mapperLocations: classpath:mapper/*.xml
+management:
+  server:
+    port: 9999
+  endpoints:
+    web:
+      exposure:
+        include: '*'

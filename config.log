@@ -1,0 +1,5 @@
+2024-01-05 17:55:25,350 [main] DEBUG  file1 -%PARSER_ERROR[kvp] -success
+2024-01-05 18:34:18,200 [main] DEBUG  file1 -%PARSER_ERROR[kvp] -success
+2024-01-05 18:34:23,336 [main] DEBUG  file1 -%PARSER_ERROR[kvp] -success
+2024-01-05 18:35:07,448 [main] DEBUG  file1 -%PARSER_ERROR[kvp] -success
+2024-01-05 18:36:22,503 [main] DEBUG  file1 -%PARSER_ERROR[kvp] -success

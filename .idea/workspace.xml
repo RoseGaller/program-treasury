@@ -1,0 +1,1260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3192e119-4de4-4db3-b653-65ed1107113a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../springcloud-study-2/out/production/eureka-server/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ch-2/eureka-client-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ch-2/eureka-client-provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../feign/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../feign/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Go File" />
+        <option value="Kotlin File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="$PROJECT_DIR$/../../../go1.14.darwin-amd64/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="2v6fcdqe" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../apache-maven-3.6.3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="2a7rZ43bAoxkJdPthuoGKcoPAck" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springboot-summary/src/main/resources" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="copyright" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/springboot-summary/src/main/resources" />
+      <recent name="$PROJECT_DIR$/logback-summary/src/main/resources" />
+      <recent name="$PROJECT_DIR$/eureka-provider/src/main/resources" />
+      <recent name="$PROJECT_DIR$/.." />
+      <recent name="$PROJECT_DIR$/gateway-summary/src/main/resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lct.filter" />
+      <recent name="com.lct.study.bean" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/mybatis-ssummary/src/main/resources/mapper" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:9888" />
+          <option name="urlPath" value="/test" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="token" />
+                <option name="value" value="admin" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:9888" />
+          <option name="urlPath" value="/test" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="username" />
+                <option name="value" value="admin" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:9888" />
+          <option name="urlPath" value="/test" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:8881" />
+          <option name="urlPath" value="/user/get/46" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:8881" />
+          <option name="urlPath" value="/user/get/46" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="token" />
+                <option name="value" value="111" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:8763" />
+          <option name="urlPath" value="/user/get/46" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="token" />
+                <option name="value" value="111" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:8881" />
+          <option name="urlPath" value="/user/get/46" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="token" />
+                <option name="value" value="111" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="green" />
+                <option name="value" value="green" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:8881" />
+          <option name="urlPath" value="/user/get/46" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="green" />
+                <option name="value" value="green" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:8881" />
+          <option name="urlPath" value="/user/get/46" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="token" />
+                <option name="value" value="1234" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="green" />
+                <option name="value" value="green" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:8884" />
+          <option name="urlPath" value="/user/get/46" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="token" />
+                <option name="value" value="1234" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="green" />
+                <option name="value" value="green" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:8883" />
+          <option name="urlPath" value="/user/get/46" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="token" />
+                <option name="value" value="1234" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="green" />
+                <option name="value" value="green" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:8881/user/get/46" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="token" />
+                <option name="value" value="1234" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="green" />
+                <option name="value" value="green" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:8881" />
+          <option name="urlPath" value="/user/get/46" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="status" />
+                <option name="value" value="true" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="green" />
+                <option name="value" value="ee" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="green" />
+                <option name="value" value="aadf" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:8881" />
+          <option name="urlPath" value="/user/get/46" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="token" />
+                <option name="value" value="1234" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="status" />
+                <option name="value" value="true" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="green" />
+                <option name="value" value="ee" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="green" />
+                <option name="value" value="aadf" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:8881" />
+          <option name="urlPath" value="/user/updateStatus" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="token" />
+                <option name="value" value="1234" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="status" />
+                <option name="value" value="true" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="green" />
+                <option name="value" value="ee" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="green" />
+                <option name="value" value="aadf" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:8881/user/get/45" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="token" />
+                <option name="value" value="1234" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="green" />
+                <option name="value" value="green" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:8881/user/updateStatus" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="token" />
+                <option name="value" value="1234" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="green" />
+                <option name="value" value="green" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:8881/user/updateStatus" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="token" />
+                <option name="value" value="1234" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="status" />
+                <option name="value" value="green" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:8881" />
+          <option name="urlPath" value="/user/updateStatus" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="token" />
+                <option name="value" value="1234" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="status" />
+                <option name="value" value="true" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="green" />
+                <option name="value" value="ee" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:8881" />
+          <option name="urlPath" value="/user/updateStatus/green=ee" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="token" />
+                <option name="value" value="1234" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="status" />
+                <option name="value" value="true" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:8881" />
+          <option name="urlPath" value="/user/updateStatus/greem=ee" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="token" />
+                <option name="value" value="1234" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="status" />
+                <option name="value" value="true" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:8881" />
+          <option name="urlPath" value="/user/updateStatus" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="token" />
+                <option name="value" value="1234" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="status" />
+                <option name="value" value="true" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:8881" />
+          <option name="urlPath" value="/user/updateStatus" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="token" />
+                <option name="value" value="1234" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:8881" />
+          <option name="urlPath" value="/user/get/46" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="token" />
+                <option name="value" value="1234" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:8881" />
+          <option name="urlPath" value="/get/46" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="token" />
+                <option name="value" value="1234" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.SampleTurboFilter">
+    <configuration name="Appender" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lct.appender.Appender" />
+      <module name="logback-summary" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lct.appender.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lct.HelloWorld" />
+      <module name="logback-summary" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lct.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SampleFilter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lct.filter.SampleFilter" />
+      <module name="logback-summary" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lct.filter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SampleTurboFilter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lct.filter.SampleTurboFilter" />
+      <module name="logback-summary" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lct.filter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleMDC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lct.mdc.SimpleMDC" />
+      <module name="logback-summary" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lct.mdc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="springcloud-study" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="springcloud-study" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloudEurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lct.study.CloudEurekaServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lct.SpringbootAdminApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="user-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lct.study.UserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SampleTurboFilter" />
+        <item itemvalue="Application.SampleFilter" />
+        <item itemvalue="Application.HelloWorld" />
+        <item itemvalue="Application.SimpleMDC" />
+        <item itemvalue="Application.Appender" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3192e119-4de4-4db3-b653-65ed1107113a" name="Default Changelist" comment="" />
+      <created>1703680510549</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1703680510549</updated>
+      <workItem from="1703680511963" duration="78000" />
+      <workItem from="1703680592850" duration="2003000" />
+      <workItem from="1703682681469" duration="194000" />
+      <workItem from="1703682905409" duration="363000" />
+      <workItem from="1703683290671" duration="106000" />
+      <workItem from="1703683402872" duration="92000" />
+      <workItem from="1703683497509" duration="63000" />
+      <workItem from="1703683571872" duration="559000" />
+      <workItem from="1703684136758" duration="279000" />
+      <workItem from="1703684435336" duration="581000" />
+      <workItem from="1703685031641" duration="174000" />
+      <workItem from="1703685485548" duration="41875000" />
+      <workItem from="1703826823376" duration="222000" />
+      <workItem from="1703827358736" duration="49000" />
+      <workItem from="1703833128051" duration="17487000" />
+      <workItem from="1703905735484" duration="21873000" />
+      <workItem from="1703981480873" duration="861000" />
+      <workItem from="1703984117051" duration="6623000" />
+      <workItem from="1704012075887" duration="25751000" />
+      <workItem from="1704093388671" duration="2876000" />
+      <workItem from="1704180431222" duration="7003000" />
+      <workItem from="1704251825202" duration="29003000" />
+      <workItem from="1704356582737" duration="9445000" />
+      <workItem from="1704374963011" duration="29009000" />
+      <workItem from="1704507343696" duration="11068000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="570" y="276" width="520" height="225" key="#Custom_Plugin_Repositories" timestamp="1703886171802">
+      <screen x="0" y="25" width="1440" height="811" />
+    </state>
+    <state x="570" y="276" width="520" height="225" key="#Custom_Plugin_Repositories/0.25.1440.811@0.25.1440.811" timestamp="1703886171802" />
+    <state x="277" y="40" key="#MybatisPlusTest.testInsert" timestamp="1703911345266">
+      <screen x="0" y="25" width="1440" height="811" />
+    </state>
+    <state x="277" y="40" key="#MybatisPlusTest.testInsert/0.25.1440.811@0.25.1440.811" timestamp="1703911345266" />
+    <state x="181" y="25" key="#Project_Structure" timestamp="1704262977088">
+      <screen x="0" y="25" width="1440" height="811" />
+    </state>
+    <state x="181" y="25" key="#Project_Structure/0.25.1440.811@0.25.1440.811" timestamp="1704262977088" />
+    <state x="493" y="198" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1703923247855">
+      <screen x="0" y="25" width="1440" height="811" />
+    </state>
+    <state x="493" y="198" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.25.1440.811@0.25.1440.811" timestamp="1703923247855" />
+    <state x="287" y="284" key="#com.intellij.debugger.ui.breakpoints.EditClassFiltersDialog" timestamp="1703817194379">
+      <screen x="0" y="25" width="1440" height="811" />
+    </state>
+    <state x="287" y="284" key="#com.intellij.debugger.ui.breakpoints.EditClassFiltersDialog/0.25.1440.811@0.25.1440.811" timestamp="1703817194379" />
+    <state x="262" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1704264104645">
+      <screen x="0" y="25" width="1440" height="811" />
+    </state>
+    <state x="262" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.811@0.25.1440.811" timestamp="1704264104645" />
+    <state x="506" y="136" key="#com.intellij.ide.util.MemberChooser" timestamp="1704514258567">
+      <screen x="0" y="25" width="1440" height="811" />
+    </state>
+    <state x="506" y="136" key="#com.intellij.ide.util.MemberChooser/0.25.1440.811@0.25.1440.811" timestamp="1704514258567" />
+    <state x="110" y="354" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1703834620864">
+      <screen x="0" y="25" width="1440" height="811" />
+    </state>
+    <state x="110" y="354" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.25.1440.811@0.25.1440.811" timestamp="1703834620864" />
+    <state x="462" y="311" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1703834624031">
+      <screen x="0" y="25" width="1440" height="811" />
+    </state>
+    <state x="462" y="311" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.25.1440.811@0.25.1440.811" timestamp="1703834624031" />
+    <state x="188" y="25" key="CommitChangelistDialog2" timestamp="1704031980257">
+      <screen x="0" y="25" width="1440" height="811" />
+    </state>
+    <state x="188" y="25" key="CommitChangelistDialog2/0.25.1440.811@0.25.1440.811" timestamp="1704031980257" />
+    <state width="1337" height="466" key="DebuggerActiveHint" timestamp="1704070637168">
+      <screen x="0" y="25" width="1440" height="811" />
+    </state>
+    <state width="1337" height="466" key="DebuggerActiveHint/0.25.1440.811@0.25.1440.811" timestamp="1704070637168" />
+    <state x="471" y="315" key="DetectedRootsChooserDialog" timestamp="1703901692028">
+      <screen x="0" y="25" width="1440" height="811" />
+    </state>
+    <state x="471" y="315" key="DetectedRootsChooserDialog/0.25.1440.811@0.25.1440.811" timestamp="1703901692028" />
+    <state x="131" y="125" width="1139" height="601" key="DiffContextDialog" timestamp="1703910566847">
+      <screen x="0" y="25" width="1440" height="811" />
+    </state>
+    <state x="131" y="125" width="1139" height="601" key="DiffContextDialog/0.25.1440.811@0.25.1440.811" timestamp="1703910566847" />
+    <state width="1398" height="186" key="GridCell.Tab.0.bottom" timestamp="1704515322290">
+      <screen x="0" y="25" width="1440" height="811" />
+    </state>
+    <state width="1323" height="218" key="GridCell.Tab.0.bottom/0.25.1440.809@0.25.1440.809" timestamp="1704189474107" />
+    <state width="1398" height="186" key="GridCell.Tab.0.bottom/0.25.1440.811@0.25.1440.811" timestamp="1704515322290" />
+    <state width="1398" height="186" key="GridCell.Tab.0.center" timestamp="1704515322289">
+      <screen x="0" y="25" width="1440" height="811" />
+    </state>
+    <state width="1323" height="218" key="GridCell.Tab.0.center/0.25.1440.809@0.25.1440.809" timestamp="1704189474107" />
+    <state width="1398" height="186" key="GridCell.Tab.0.center/0.25.1440.811@0.25.1440.811" timestamp="1704515322289" />
+    <state width="1398" height="186" key="GridCell.Tab.0.left" timestamp="1704515322288">
+      <screen x="0" y="25" width="1440" height="811" />
+    </state>
+    <state width="1323" height="218" key="GridCell.Tab.0.left/0.25.1440.809@0.25.1440.809" timestamp="1704189474106" />
+    <state width="1398" height="186" key="GridCell.Tab.0.left/0.25.1440.811@0.25.1440.811" timestamp="1704515322288" />
+    <state width="1398" height="186" key="GridCell.Tab.0.right" timestamp="1704515322290">
+      <screen x="0" y="25" width="1440" height="811" />
+    </state>
+    <state width="1323" height="218" key="GridCell.Tab.0.right/0.25.1440.809@0.25.1440.809" timestamp="1704189474107" />
+    <state width="1398" height="186" key="GridCell.Tab.0.right/0.25.1440.811@0.25.1440.811" timestamp="1704515322290" />
+    <state width="1398" height="261" key="GridCell.Tab.1.bottom" timestamp="1704450984120">
+      <screen x="0" y="25" width="1440" height="811" />
+    </state>
+    <state width="1323" height="218" key="GridCell.Tab.1.bottom/0.25.1440.809@0.25.1440.809" timestamp="1704189474109" />
+    <state width="1398" height="261" key="GridCell.Tab.1.bottom/0.25.1440.811@0.25.1440.811" timestamp="1704450984120" />
+    <state width="1398" height="261" key="GridCell.Tab.1.center" timestamp="1704450984120">
+      <screen x="0" y="25" width="1440" height="811" />
+    </state>
+    <state width="1323" height="218" key="GridCell.Tab.1.center/0.25.1440.809@0.25.1440.809" timestamp="1704189474108" />
+    <state width="1398" height="261" key="GridCell.Tab.1.center/0.25.1440.811@0.25.1440.811" timestamp="1704450984120" />
+    <state width="1398" height="261" key="GridCell.Tab.1.left" timestamp="1704450984119">
+      <screen x="0" y="25" width="1440" height="811" />
+    </state>
+    <state width="1323" height="218" key="GridCell.Tab.1.left/0.25.1440.809@0.25.1440.809" timestamp="1704189474108" />
+    <state width="1398" height="261" key="GridCell.Tab.1.left/0.25.1440.811@0.25.1440.811" timestamp="1704450984119" />
+    <state width="1398" height="261" key="GridCell.Tab.1.right" timestamp="1704450984120">
+      <screen x="0" y="25" width="1440" height="811" />
+    </state>
+    <state width="1323" height="218" key="GridCell.Tab.1.right/0.25.1440.809@0.25.1440.809" timestamp="1704189474109" />
+    <state width="1398" height="261" key="GridCell.Tab.1.right/0.25.1440.811@0.25.1440.811" timestamp="1704450984120" />
+    <state width="1398" height="376" key="GridCell.Tab.2.bottom" timestamp="1704450850563">
+      <screen x="0" y="25" width="1440" height="811" />
+    </state>
+    <state width="1398" height="376" key="GridCell.Tab.2.bottom/0.25.1440.811@0.25.1440.811" timestamp="1704450850563" />
+    <state width="1398" height="376" key="GridCell.Tab.2.center" timestamp="1704450850563">
+      <screen x="0" y="25" width="1440" height="811" />
+    </state>
+    <state width="1398" height="376" key="GridCell.Tab.2.center/0.25.1440.811@0.25.1440.811" timestamp="1704450850563" />
+    <state width="1398" height="376" key="GridCell.Tab.2.left" timestamp="1704450850563">
+      <screen x="0" y="25" width="1440" height="811" />
+    </state>
+    <state width="1398" height="376" key="GridCell.Tab.2.left/0.25.1440.811@0.25.1440.811" timestamp="1704450850563" />
+    <state width="1398" height="376" key="GridCell.Tab.2.right" timestamp="1704450850563">
+      <screen x="0" y="25" width="1440" height="811" />
+    </state>
+    <state width="1398" height="376" key="GridCell.Tab.2.right/0.25.1440.811@0.25.1440.811" timestamp="1704450850563" />
+    <state x="293" y="84" key="Maven.ArtifactSearchDialog" timestamp="1703980829676">
+      <screen x="0" y="25" width="1440" height="811" />
+    </state>
+    <state x="293" y="84" key="Maven.ArtifactSearchDialog/0.25.1440.811@0.25.1440.811" timestamp="1703980829676" />
+    <state x="322" y="136" key="NewModule_or_Project.wizard" timestamp="1703684019697">
+      <screen x="0" y="25" width="1440" height="811" />
+    </state>
+    <state x="322" y="136" key="NewModule_or_Project.wizard/0.25.1440.811@0.25.1440.811" timestamp="1703684019697" />
+    <state x="188" y="25" key="SettingsEditor" timestamp="1703905845594">
+      <screen x="0" y="25" width="1440" height="811" />
+    </state>
+    <state x="188" y="25" key="SettingsEditor/0.25.1440.811@0.25.1440.811" timestamp="1703905845594" />
+    <state width="591" height="410" key="XDebugger.FullValuePopup" timestamp="1704265368958">
+      <screen x="0" y="25" width="1440" height="811" />
+    </state>
+    <state width="591" height="410" key="XDebugger.FullValuePopup/0.25.1440.811@0.25.1440.811" timestamp="1704265368958" />
+    <state x="422" y="327" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1703681948407">
+      <screen x="0" y="25" width="1440" height="811" />
+    </state>
+    <state x="422" y="327" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.25.1440.811@0.25.1440.811" timestamp="1703681948407" />
+    <state x="225" y="165" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1703817219393">
+      <screen x="0" y="25" width="1440" height="811" />
+    </state>
+    <state x="225" y="165" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.25.1440.811@0.25.1440.811" timestamp="1703817219393" />
+    <state x="366" y="303" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1704521407224">
+      <screen x="0" y="25" width="1440" height="811" />
+    </state>
+    <state x="366" y="303" key="git4idea.remote.GitConfigureRemotesDialog/0.25.1440.811@0.25.1440.811" timestamp="1704521407224" />
+    <state x="252" y="156" key="new project wizard" timestamp="1704435052474">
+      <screen x="0" y="25" width="1440" height="811" />
+    </state>
+    <state x="252" y="156" key="new project wizard/0.25.1440.811@0.25.1440.811" timestamp="1704435052474" />
+    <state x="565" y="84" width="670" height="676" key="search.everywhere.popup" timestamp="1704517630778">
+      <screen x="0" y="25" width="1440" height="811" />
+    </state>
+    <state x="565" y="84" width="670" height="676" key="search.everywhere.popup/0.25.1440.811@0.25.1440.811" timestamp="1704517630778" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/user-provider/src/main/java/com/lct/study/service/impl/UserServiceImpl.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.8.RELEASE/spring-aop-5.1.8.RELEASE.jar!/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.class</url>
+          <line>245</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/mybatis-summary/src/main/java/com/lct/MPTest.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../../mybatis/src/main/java/org/apache/ibatis/executor/keygen/Jdbc3KeyGenerator.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../../mybatis/src/main/java/org/apache/ibatis/executor/keygen/Jdbc3KeyGenerator.java</url>
+          <line>133</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.1.1/mybatis-plus-core-3.1.1-sources.jar!/com/baomidou/mybatisplus/core/injector/methods/Insert.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.1.1/mybatis-plus-core-3.1.1-sources.jar!/com/baomidou/mybatisplus/core/injector/methods/Insert.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.1.1/mybatis-plus-core-3.1.1-sources.jar!/com/baomidou/mybatisplus/core/injector/methods/Insert.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.1.1/mybatis-plus-core-3.1.1-sources.jar!/com/baomidou/mybatisplus/core/toolkit/TableInfoHelper.java</url>
+          <line>200</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-summary/src/test/java/com/lct/ApplicationTest.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-core/10.1.0/feign-core-10.1.0.jar!/feign/SynchronousMethodHandler.class</url>
+          <line>81</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/logback-summary/src/main/java/com/lct/introduction/com/lct/filter/SampleFilter.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springboot-summary/src/main/java/com/lct/filter/SampleFilter.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/logback-summary/src/main/java/com/lct/HelloWorld.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3-sources.jar!/ch/qos/logback/classic/Logger.java</url>
+          <line>481</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3-sources.jar!/ch/qos/logback/core/OutputStreamAppender.java</url>
+          <line>88</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo typeName="org.springframework.web.servlet.config.annotation.InterceptorRegistration" fieldName="interceptor" />
+      </pinned-members>
+    </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="typeHandlerRegistry" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

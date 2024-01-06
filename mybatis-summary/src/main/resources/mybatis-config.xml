@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <!--注意配置顺序-->
+
+    <!-- 1、配置properties-->
+    <properties>
+        <property name="useGeneratedKeys" value="true"/>
+    </properties>
+    <!-- 2、配置setttings-->
+    <!-- 3、配置typeLiases-->
+    <!-- 4、配置typeHandlers-->
+    <!-- 5、配置objectFactory-->
+    <!-- 6、配置plugins-->
+    <plugins>
+        <plugin interceptor="com.lct.plugin.ExamplePlugin">
+            <property name="test" value="test"/>
+        </plugin>
+    </plugins>
+    <!-- 7、配置environments-->
+    <environments default="development">
+        <environment id="development">
+            <!--当前的事务事务管理器是JDBC，如果不配置默认是ManagedTransactionFactory-->
+            <transactionManager type="JDBC"></transactionManager>
+            <!--数据源信息 POOLED：使⽤mybatis的连接池-->
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://127.0.0.1:3306/xc_user"/>
+                <property name="username" value="root"/>
+                <property name="password" value="root"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <!-- 8、配置databaseIdProvider-->
+    <!-- 9、配置mappers-->
+    <mappers>
+        <mapper resource="mapper/UserMapper.xml"></mapper>
+    </mappers>
+
+</configuration>

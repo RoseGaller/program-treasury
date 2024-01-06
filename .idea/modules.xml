@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/eureka-common/eureka-common.iml" filepath="$PROJECT_DIR$/eureka-common/eureka-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway-summary/gateway-summary.iml" filepath="$PROJECT_DIR$/gateway-summary/gateway-summary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/logback-summary/logback-summary.iml" filepath="$PROJECT_DIR$/logback-summary/logback-summary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis-summary/mybatis-summary.iml" filepath="$PROJECT_DIR$/mybatis-summary/mybatis-summary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-admin/springboot-admin.iml" filepath="$PROJECT_DIR$/springboot-admin/springboot-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-summary/springboot-summary.iml" filepath="$PROJECT_DIR$/springboot-summary/springboot-summary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/springcloud-study.iml" filepath="$PROJECT_DIR$/.idea/springcloud-study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-consumer/user-consumer.iml" filepath="$PROJECT_DIR$/user-consumer/user-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-provider/user-provider.iml" filepath="$PROJECT_DIR$/user-provider/user-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wrap-spring-boot-starter/wrap-spring-boot-starter.iml" filepath="$PROJECT_DIR$/wrap-spring-boot-starter/wrap-spring-boot-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuul-summary/zuul-summary.iml" filepath="$PROJECT_DIR$/zuul-summary/zuul-summary.iml" />
+    </modules>
+  </component>
+</project>

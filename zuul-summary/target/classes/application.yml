@@ -1,0 +1,44 @@
+server:
+  port: 8881
+  #web容器参数
+  tomcat:
+    accept-count: 1000
+    max-connections: 10000
+    max-threads: 500
+    min-spare-threads: 10
+spring:
+  application:
+    name: zuul
+#注册中心
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8882/eureka/
+#ribbon-全局配置，如果还开启了Hystrix，Hystrix中的超时时间，要大于ribbon的超时时间（还有重试次数），
+ribbon:
+  ReadTimeout: 2000
+  ConnectTimeout: 3000
+  MaxConnectionsPerHost: 11 #单服务并发数
+  MaxTotalConnections: 22 #总并发数
+#ribbon-每个服务的单独配置
+user-service:
+  ribbon:
+    ReadTimeout: 2000
+    ConnectTimeout: 2000
+#路由信息
+zuul:
+  #通过URL方式进行转发的的超时时间
+  host:
+    connect-timeout-millis: 2000
+    socket-timeout-millis: 2000
+    max-per-route-connections: 20 #每个路由的连接数
+    max-total-connections: 200 #总连接数
+  semaphore:
+    max-semaphores: 1000 #默认使用的模式，默认为最大并发为100
+  retryable: true #开启对重试的支持
+  routes:
+    user:
+      path: /user/**
+      serviceId: user-provider
+#      url: http://127.0.0.1:8883  #直接指定服务地址
+      strip-prefix: false #如果不配置为false，会把前缀去掉

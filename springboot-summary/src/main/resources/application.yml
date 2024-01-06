@@ -1,0 +1,20 @@
+spring:
+  profiles:
+    active: dev
+  redis:
+    host: localhost
+    port: 6379
+  boot:
+    admin:
+      client:
+        url: http://127.0.0.1:9090
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+#自定义信息
+info:
+  auth:
+    name: lct
+    dep: dev

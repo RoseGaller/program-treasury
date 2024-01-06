@@ -1,0 +1,39 @@
+#https://docs.spring.io/spring-cloud-gateway/docs/3.0.8/reference/html/#gateway-starter
+server:
+  port: 8881
+  tomcat:
+    accept-count: 1000
+    max-connections: 10000
+    max-threads: 500
+    min-spare-threads: 10
+spring:
+  application:
+    name: gateway
+  cloud:
+    gateway:
+      httpclient:
+        connect-timeout: 1000 # Integer 类型
+        response-timeout: 5s # Duration 类型
+      routes:
+      - id: user
+        uri: http://127.0.0.1:8883
+        filters:
+          - AddRequestHeader=X-Request-red, blue
+        predicates:
+#        - Query=green
+        - Path=/user/**
+#注册中心
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8882/eureka/
+management:
+  endpoint:
+    gateway:
+      enabled: true
+  server:
+    port: 6661
+  endpoints:
+    web:
+      exposure:
+        include: '*'

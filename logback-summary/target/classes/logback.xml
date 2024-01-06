@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 配置文件修改时重新加载，默认true -->
+<configuration scan="true">
+
+    <!--定义日志文件的存储地址 勿在 LogBack 的配置中使用相对路径-->
+    <property name="CATALINA_BASE" value="**/logs"></property>
+
+    <!-- 配置属性信息，scope默认为local，即只在初始化阶段有效；context：全局有效；system：可以从System.getProperties获取-->
+    <property name="USERNAME" value="admin" scope="context"></property>
+
+    <!-- 控制台输出 -->
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <!-- 自定义过滤器 -->
+<!--        <filter class="com.lct.introduction.com.lct.filter.SampleFilter"></filter>-->
+        <!-- Level过滤器  只打印info级别-->
+<!--        <filter class="ch.qos.logback.classic.filter.LevelFilter">-->
+<!--            <level>INFO</level>-->
+<!--            <onMatch>ACCEPT</onMatch>-->
+<!--            <onMisMatch>DENY</onMisMatch>-->
+<!--        </filter>-->
+        <!-- Threshold过滤器  只打印INFO级别以上-->
+<!--        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">-->
+<!--            <level>INFO</level>-->
+<!--        </filter>-->
+        <encoder charset="UTF-8">
+            <!-- 输出日志记录格式 -->
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+    <!-- 第一个文件输出,每天产生一个文件 -->
+<!--    <appender name="FILE1" class="ch.qos.logback.core.rolling.RollingFileAppender">-->
+<!--        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">-->
+<!--            &lt;!&ndash; 输出文件路径+文件名 &ndash;&gt;-->
+<!--            <fileNamePattern>${CATALINA_BASE}/aa.%d{yyyyMMdd}.log</fileNamePattern>-->
+<!--            &lt;!&ndash; 保存30天的日志 &ndash;&gt;-->
+<!--            <maxHistory>30</maxHistory>-->
+<!--        </rollingPolicy>-->
+<!--        <encoder charset="UTF-8">-->
+<!--            &lt;!&ndash; 输出日志记录格式 &ndash;&gt;-->
+<!--            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>-->
+<!--        </encoder>-->
+<!--    </appender>-->
+
+    <!-- 第二个文件输出,每天产生一个文件 -->
+<!--    <appender name="FILE2" class="ch.qos.logback.core.rolling.RollingFileAppender">-->
+<!--        <file>${CATALINA_BASE}/bb.log</file>-->
+<!--        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">-->
+<!--            <fileNamePattern>${CATALINA_BASE}/bb.%d{yyyyMMdd}.log</fileNamePattern>-->
+<!--            <maxHistory>30</maxHistory>-->
+<!--        </rollingPolicy>-->
+<!--        <encoder charset="UTF-8">-->
+<!--            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>-->
+<!--        </encoder>-->
+<!--    </appender>-->
+
+<!--    <appender name="CUSTOM" class="ch.qos.logback.core.rolling.RollingFileAppender">-->
+<!--        <file>${CATALINA_BASE}/custom.log</file>-->
+<!--        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">-->
+<!--            &lt;!&ndash; daily rollover &ndash;&gt;-->
+<!--            <fileNamePattern>${CATALINA_BASE}/custom.%d{yyyy-MM-dd}.log</fileNamePattern>-->
+<!--            &lt;!&ndash; keep 30 days' worth of history &ndash;&gt;-->
+<!--            <maxHistory>30</maxHistory>-->
+<!--        </rollingPolicy>-->
+<!--        <encoder charset="UTF-8">-->
+<!--            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>-->
+<!--        </encoder>-->
+<!--    </appender>-->
+
+    <appender name="SIFT" class="ch.qos.logback.classic.sift.SiftingAppender">
+        <discriminator>
+            <key>userid</key>
+            <defaultValue>unknown</defaultValue>
+        </discriminator>
+        <sift>
+            <appender name="FILE-${userid}" class="ch.qos.logback.core.FileAppender">
+                <file>${userid}.log</file>
+                <append>false</append>
+                <layout class="ch.qos.logback.classic.PatternLayout">
+                    <pattern>%d [%thread] %level %mdc %logger{35} -%kvp -%msg%n</pattern>
+                </layout>
+            </appender>
+        </sift>
+    </appender>
+    <appender name="singleFile" class="ch.qos.logback.core.FileAppender">
+        <file>config.log</file>
+        <!--true：表示从尾部追加写；false：从头开始写 -->
+        <append>true</append>
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <pattern>%d [%thread] %level %mdc %logger{35} -%kvp -%msg%n</pattern>
+        </layout>
+    </appender>
+
+    <appender name="MDC_CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <layout>
+            <!-- %X 输出MDC中的信息-->
+            <Pattern>%X{first} %X{last} - %m%n</Pattern>
+        </layout>
+    </appender>
+
+    <!-- 设置日志输出级别 -->
+    <root level="DEBUG">
+        <appender-ref ref="CONSOLE" />
+<!--        <appender-ref ref="SIFT" />-->
+    </root>
+    <!--预先创建logger，additivity为true，日志会重复打印-->
+    <logger name="file1" level="DEBUG" additivity="false">
+        <appender-ref ref="singleFile" />
+    </logger>
+
+    <!--MDC-->
+    <logger name="com.lct.mdc.SimpleMDC" level="DEBUG" additivity="false">
+        <appender-ref ref="MDC_CONSOLE" />
+    </logger>
+
+</configuration>
