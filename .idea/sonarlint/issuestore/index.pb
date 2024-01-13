@@ -7,12 +7,8 @@ m
 =user-provider/src/main/java/com/lct/study/dao/UserMapper.java,c/e/ce884e703bf67ed8220a2b1b03cfc480d00bd668
 r
 Buser-provider/src/main/java/com/lct/study/service/UserService.java,3/7/37e96c6c2693406d64bf1b368effbf928b9a913d
-j
-:user-provider/src/test/java/com/lct/ApplicationZKTest.java,a/0/a068f18b0e07aee22e670ea9434b549c8ce5445a
 H
 springboot-admin/pom.xml,1/2/12db0ae6e243304f318fb31c1d3511425d34afdc
-v
-Fspringboot-admin/src/main/java/com/lct/SpringbootAdminApplication.java,8/4/847413f9fe89f2d6d9a41374c57d3e74cfe86083
 E
 springcloud-study.iml,5/a/5ae6cf667c49086e768dbf89ec57292fe0886d20
 h
