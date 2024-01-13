@@ -10,7 +10,7 @@ spring:
 eureka:
   client:
     serviceUrl: # eureka server的路径
-      defaultZone: http://localhost:8882/eureka/, #把 eureka 集群中的所有 url 都填写了进来，也 可以只写一台，因为各个 eureka server 可以同步注册表
+      defaultZone: http://localhost:8886/eureka/, #把 eureka 集群中的所有 url 都填写了进来，也 可以只写一台，因为各个 eureka server 可以同步注册表
     prefer-ip-address: true #自定义实例显示格式，加上版本号，便于多版本管理，注意是ip-address
     instance-id: ${spring.application.name}:${spring.cloud.client.ip-address}:${server.port}
     healthcheck:

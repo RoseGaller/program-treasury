@@ -9,14 +9,17 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@TableName
-@KeySequence(clazz = Long.class)
+
+//@TableName("xc_user")//当实体类的名称跟表的名称不匹配，需要添加@TableName注解，指定具体的表的名称
 public class User {
 
 
-    //@TableId(type = IdType.AUTO,value="id") //指定id类型为自增长
-    @TableId(type = IdType.INPUT,value="id")
+    //@TableId(type = IdType.AUTO,value="id") //需指定指定id类型为自增长
+    @TableId(type = IdType.ASSIGN_ID)
     private Long id;
+
+    //插入时自动填充
+//    @TableField(fill = FieldFill.INSERT )
     private String name;
     //查询时不返回此字段
 //    @TableField(select =false)

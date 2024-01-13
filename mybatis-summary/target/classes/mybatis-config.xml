@@ -7,7 +7,7 @@
 
     <!-- 1、配置properties-->
     <properties>
-        <property name="useGeneratedKeys" value="true"/>
+<!--        <property name="useGeneratedKeys" value="true"/>-->
     </properties>
     <!-- 2、配置setttings-->
     <!-- 3、配置typeLiases-->
@@ -18,6 +18,11 @@
         <plugin interceptor="com.lct.plugin.ExamplePlugin">
             <property name="test" value="test"/>
         </plugin>
+        <!--   非法sql检查    -->
+<!--        <plugin interceptor="com.baomidou.mybatisplus.extension.plugins.IllegalSQLInterceptor">-->
+<!--        </plugin>-->
+        <!--   分页插件     -->
+        <plugin interceptor="com.baomidou.mybatisplus.extension.plugins.PaginationInterceptor"/>
     </plugins>
     <!-- 7、配置environments-->
     <environments default="development">

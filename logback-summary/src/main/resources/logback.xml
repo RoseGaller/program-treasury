@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!-- 配置文件修改时重新加载，默认true -->
-<configuration scan="true">
+<configuration scan="true" scanPeriod="10000" debug="false" >
 
-    <!--定义日志文件的存储地址 勿在 LogBack 的配置中使用相对路径-->
+    <!-- 定义日志文件的存储地址 -->
     <property name="CATALINA_BASE" value="**/logs"></property>
 
-    <!-- 配置属性信息，scope默认为local，即只在初始化阶段有效；context：全局有效；system：可以从System.getProperties获取-->
+    <!-- 配置属性信息 -->
+    <!-- scope默认为local，即只在初始化阶段有效；context：全局有效；system：可以从System.getProperties获取-->
     <property name="USERNAME" value="admin" scope="context"></property>
 
     <!-- 控制台输出 -->
@@ -103,6 +104,7 @@
         <appender-ref ref="CONSOLE" />
 <!--        <appender-ref ref="SIFT" />-->
     </root>
+
     <!--预先创建logger，additivity为true，日志会重复打印-->
     <logger name="file1" level="DEBUG" additivity="false">
         <appender-ref ref="singleFile" />

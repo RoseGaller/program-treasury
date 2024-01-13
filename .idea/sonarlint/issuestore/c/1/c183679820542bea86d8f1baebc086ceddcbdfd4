@@ -1,0 +1,7 @@
+
+=
+java:S1659""Declare "help" on a separate line.(½­¶éúÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(½­¶éúÿÿÿÿ
+O
+java:S1874"2Remove this use of "isNotEmpty"; it is deprecated.(’Å…Ê8ÿë»ßÏ1
+V	java:S1252"<This block of commented-out lines of code should be removed.(ƒ‰ïýüÿÿÿÿ

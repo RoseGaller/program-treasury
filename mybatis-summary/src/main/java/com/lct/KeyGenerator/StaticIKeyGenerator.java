@@ -1,11 +1,16 @@
 package com.lct.KeyGenerator;
 
 import com.baomidou.mybatisplus.core.incrementer.IKeyGenerator;
+import com.baomidou.mybatisplus.core.incrementer.IdentifierGenerator;
 
-public class StaticIKeyGenerator implements IKeyGenerator {
+import java.util.concurrent.atomic.AtomicLong;
+
+public class StaticIKeyGenerator implements IdentifierGenerator {
+
+    private AtomicLong atomicLong = new AtomicLong();
+
     @Override
-    public String executeSql(String incrementerName) {
-        System.out.println("11111111111");
-        return "123";
+    public Long nextId(Object entity) {
+        return atomicLong.incrementAndGet();
     }
 }

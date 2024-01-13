@@ -1,0 +1,11 @@
+
+Z	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ã™–t
+`
+java:S2259"JA "NullPointerException" could be thrown; "getProperty()" can return null.(ƒÉ×
+~
+java:S1128"aRemove this unused import 'org.springframework.beans.factory.support.DefaultListableBeanFactory'.(ïšôÃ8°ÁáÏ1
+
+java:S1128"|Remove this unused import 'org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext'.(´˜¿Õÿÿÿÿÿ8²ÁáÏ1
+n
+java:S1128
+"QRemove this unused import 'org.springframework.core.env.ConfigurableEnvironment'.(µ“êñ8²ÁáÏ1

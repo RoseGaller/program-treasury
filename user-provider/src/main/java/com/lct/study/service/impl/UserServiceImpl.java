@@ -16,7 +16,10 @@ public class UserServiceImpl  implements UserService {
     private UserMapper userMapper;
 
     @Override
-    public User getById(String id) {
+    public User getById(String id) throws Exception {
+        if(id.equals("46")){
+            throw  new Exception("ddddd");
+        }
         return userMapper.selectByPrimaryKey(id);
     }
 

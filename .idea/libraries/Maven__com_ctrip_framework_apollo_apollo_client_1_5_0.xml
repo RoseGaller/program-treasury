@@ -1,0 +1,35 @@
+<component name="libraryTable">
+  <library name="Maven: com.ctrip.framework.apollo:apollo-client:1.5.0">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/ctrip/framework/apollo/apollo-client/1.5.0/apollo-client-1.5.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/ctrip/framework/apollo/apollo-client/1.5.0/apollo-client-1.5.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/ctrip/framework/apollo/apollo-client/1.5.0/apollo-client-1.5.0-sources.jar!/" />
+      <root url="file://$USER_HOME$/IdeaProjects/1_apollo/.mvn/wrapper" />
+      <root url="file://$USER_HOME$/IdeaProjects/1_apollo/apollo-adminservice/src/main/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/1_apollo/apollo-adminservice/src/test/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/1_apollo/apollo-assembly/src/main/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/1_apollo/apollo-assembly/src/test/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/1_apollo/apollo-biz/src/main/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/1_apollo/apollo-biz/src/test/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/1_apollo/apollo-client/src/main/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/1_apollo/apollo-client/src/test/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/1_apollo/apollo-common/src/main/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/1_apollo/apollo-common/src/test/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/1_apollo/apollo-configservice/src/main/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/1_apollo/apollo-configservice/src/test/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/1_apollo/apollo-core/src/main/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/1_apollo/apollo-core/src/test/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/1_apollo/apollo-demo/src/main/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/1_apollo/apollo-mockserver/src/main/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/1_apollo/apollo-mockserver/src/test/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/1_apollo/apollo-openapi/src/main/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/1_apollo/apollo-openapi/src/test/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/1_apollo/apollo-portal/src/main/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/1_apollo/apollo-portal/src/test/java" />
+    </SOURCES>
+  </library>
+</component>

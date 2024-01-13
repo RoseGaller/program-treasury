@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    zookeeper:
+      connect-string: localhost:2130
+  application:
+    name: zk-test
+server:
+  port: 7771

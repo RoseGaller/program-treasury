@@ -6,6 +6,7 @@ server:
     max-connections: 10000
     max-threads: 500
     min-spare-threads: 10
+
 spring:
   application:
     name: gateway

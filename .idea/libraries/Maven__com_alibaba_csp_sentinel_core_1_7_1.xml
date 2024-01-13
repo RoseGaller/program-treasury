@@ -1,0 +1,91 @@
+<component name="libraryTable">
+  <library name="Maven: com.alibaba.csp:sentinel-core:1.7.1">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.7.1/sentinel-core-1.7.1.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.7.1/sentinel-core-1.7.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/alibaba/csp/sentinel-core/1.7.1/sentinel-core-1.7.1-sources.jar!/" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-adapter/sentinel-apache-dubbo-adapter/src/main/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-adapter/sentinel-apache-dubbo-adapter/src/test/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-adapter/sentinel-api-gateway-adapter-common/src/main/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-adapter/sentinel-api-gateway-adapter-common/src/test/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-adapter/sentinel-dubbo-adapter/src/main/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-adapter/sentinel-dubbo-adapter/src/test/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-adapter/sentinel-grpc-adapter/src/main/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-adapter/sentinel-grpc-adapter/src/test/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-adapter/sentinel-grpc-adapter/target/generated-test-sources/protobuf/grpc-java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-adapter/sentinel-grpc-adapter/target/generated-test-sources/protobuf/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-adapter/sentinel-reactor-adapter/src/main/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-adapter/sentinel-reactor-adapter/src/test/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-adapter/sentinel-spring-cloud-gateway-adapter/src/main/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-adapter/sentinel-spring-cloud-gateway-adapter/src/test/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-adapter/sentinel-spring-webflux-adapter/src/main/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-adapter/sentinel-spring-webflux-adapter/src/test/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-adapter/sentinel-spring-webmvc-adapter/src/main/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-adapter/sentinel-spring-webmvc-adapter/src/test/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-adapter/sentinel-web-servlet/src/main/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-adapter/sentinel-web-servlet/src/test/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-adapter/sentinel-zuul-adapter/src/main/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-adapter/sentinel-zuul-adapter/src/test/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-benchmark/src/main/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-benchmark/target/generated-sources/annotations" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-cluster/sentinel-cluster-client-default/src/main/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-cluster/sentinel-cluster-client-default/src/test/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-cluster/sentinel-cluster-common-default/src/main/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-cluster/sentinel-cluster-server-default/src/main/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-cluster/sentinel-cluster-server-default/src/test/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-cluster/sentinel-cluster-server-envoy-rls/src/main/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-cluster/sentinel-cluster-server-envoy-rls/src/test/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-cluster/sentinel-cluster-server-envoy-rls/target/generated-sources/protobuf/grpc-java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-cluster/sentinel-cluster-server-envoy-rls/target/generated-sources/protobuf/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-core/src/main/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-core/src/test/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-dashboard/src/main/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-dashboard/src/test/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-demo/sentinel-demo-annotation-spring-aop/src/main/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-demo/sentinel-demo-apache-dubbo/src/main/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-demo/sentinel-demo-apollo-datasource/src/main/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-demo/sentinel-demo-basic/src/main/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-demo/sentinel-demo-cluster/sentinel-demo-cluster-embedded/src/main/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-demo/sentinel-demo-cluster/sentinel-demo-cluster-server-alone/src/main/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-demo/sentinel-demo-command-handler/src/main/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-demo/sentinel-demo-dubbo/src/main/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-demo/sentinel-demo-dynamic-file-rule/src/main/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-demo/sentinel-demo-etcd-datasource/src/main/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-demo/sentinel-demo-nacos-datasource/src/main/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-demo/sentinel-demo-parameter-flow-control/src/main/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-demo/sentinel-demo-rocketmq/src/main/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-demo/sentinel-demo-slot-chain-spi/src/main/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-demo/sentinel-demo-spring-cloud-gateway/src/main/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-demo/sentinel-demo-spring-webflux/src/main/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-demo/sentinel-demo-spring-webmvc/src/main/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-demo/sentinel-demo-zookeeper-datasource/src/main/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-demo/sentinel-demo-zuul-gateway/src/main/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-extension/sentinel-annotation-aspectj/src/main/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-extension/sentinel-annotation-aspectj/src/test/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-extension/sentinel-datasource-apollo/src/main/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-extension/sentinel-datasource-consul/src/main/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-extension/sentinel-datasource-consul/src/test/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-extension/sentinel-datasource-etcd/src/main/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-extension/sentinel-datasource-etcd/src/test/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-extension/sentinel-datasource-extension/src/main/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-extension/sentinel-datasource-nacos/src/main/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-extension/sentinel-datasource-redis/src/main/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-extension/sentinel-datasource-redis/src/test/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-extension/sentinel-datasource-spring-cloud-config/src/main/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-extension/sentinel-datasource-spring-cloud-config/src/test/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-extension/sentinel-datasource-zookeeper/src/main/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-extension/sentinel-datasource-zookeeper/src/test/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-extension/sentinel-parameter-flow-control/src/main/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-extension/sentinel-parameter-flow-control/src/test/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-transport/sentinel-transport-common/src/main/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-transport/sentinel-transport-common/src/test/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-transport/sentinel-transport-netty-http/src/main/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-transport/sentinel-transport-netty-http/src/test/java" />
+      <root url="file://$USER_HOME$/IdeaProjects/Sentinel/sentinel-transport/sentinel-transport-simple-http/src/main/java" />
+    </SOURCES>
+  </library>
+</component>

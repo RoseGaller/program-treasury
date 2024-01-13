@@ -1,0 +1,17 @@
+server:
+  port: 5550
+#apollo
+#本地缓存文件名称：{appId}+{cluster}+{namespace}.properties
+#mock:
+#  host: 127.0.0.1
+#  port: 9090
+app:
+  id: test #AppId是应用的身份信息
+apollo:
+  namespace: test-apollo
+  cluster: testCluster
+  cacheDir: /opt/data #缓存路径
+  meta: http://localhost:8080 #默认情况下，meta server和config service是部署在同一个JVM进程，所以meta server的地址就是config service的地址
+spring:
+  profiles:
+    active: prod

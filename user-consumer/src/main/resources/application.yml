@@ -3,29 +3,33 @@ server:
 spring:
   application:
     name: user-consumer
+
 eureka:
   client:
-    registryFetchIntervalSeconds: 3
+    registryFetchIntervalSeconds: 3 #定时拉取服务信息的时间间隔
     serviceUrl: # eureka server的路径
       defaultZone:
-        http://localhost:8882/eureka/, #把 eureka 集群中的所有 url 都填写了进来，也可以只写一台，因为各个eureka server 可以同步注册表
+        http://localhost:8886/eureka/, #把 eureka 集群中的所有 url 都填写了进来，也可以只写一台，因为各个eureka server 可以同步注册表
     instance: localhost
     prefer-ip-address: true #自定义实例显示格式，加上版本号，便于多版本管理，注意是ip-address
     instance-id: ${spring.cloud.client.ip-address}:${spring.application.name}:${server.port}
     registry-fetch-interval-seconds: 10 #每隔10s从注册中心拉取服务，默认30s
-user-consumer:
+user-provider:
   ribbon:
-    NFLoadBalancerRuleClassName:
-      com.netflix.loadbalancer.RandomRule
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
+    ConnectTimeout: 1000
+    ReadTimeout: 1000
 ribbon:
   #重试要考虑幂等性
   MaxAutoRetries: 3 #切换实例的重试次数
   MaxAutoRetriesNextServer: 11 #是否需要对所有操作请求都进行重试
   OkToRetryOnAllOperations: true #不配置只会对 Get 请求进行重试等规则
   ServerListRefreshInterval: 2000
+  ReadTimeout: 1000
+  ConnectTimeout: 1000
   eager-load:
-    enabled: true #是否提前初始化
-    clients: #服务名称，提前初始化这些服务的Ribbon configuration
+    enabled: true #提前初始化ribbon中的子容器
+  #RoundRobinLoadBalancer服务名称，提前初始化这些服务的Ribbon configuration
 #如果配置了ribbon和feign的超时时间，以feign为主
 #feign.client.config.服务名称.connectTimeout
 #feign.client.config.服务名称.readTimeout
@@ -33,4 +37,10 @@ feign:
   httpclient:
     max-connections-per-route: 11 #
     max-connections: 11 #
-
+  client:
+    defaultToProperties: true # true：表示配置优先；false：表示代码优先
+    config: {"user-provider":{"connectTimeout":1,"readTimeout":1,"loggerLevel":"FULL"}}
+logging:
+  level:
+    root:
+      trace

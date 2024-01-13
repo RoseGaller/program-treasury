@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 配置文件修改时重新加载，默认true -->
+<configuration scan="true">
+
+    <!--定义日志文件的存储地址-->
+    <property name="USERNAME" value="ADMIN" scope="context"></property>
+
+    <!-- 自定义转换器   -->
+    <conversionRule conversionWord="newLevel" converterClass="com.lct.layouts.SampleConverter"></conversionRule>
+
+    <!-- 控制台输出 -->
+    <!-- %logger 名称 %logger{36} 截取指定长度  -->
+    <!-- %d{yyyy-MM-dd HH:mm:ss.SSS} 时间 -->
+    <!-- %thread 线程名称  -->
+    <!-- %-5level  左对齐日志级别  -->
+    <!-- %msg 日志信息   -->
+    <!-- %ex 打印全量异常信息 %ex{short}：栈跟踪的第一行 %ex{full}：全打印；%ex{2}：打印栈跟踪的两行   -->
+    <!-- %mdc{userid} 打印mdc中的信息 -->
+    <!-- %xEx 打印类的包信息，   -->
+    <!-- %property{CATALINA_BASE}  打印属性信息-->
+    <!-- %L 打印行号   -->
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder charset="UTF-8">
+            <!-- 输出日志记录格式 -->
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} [%thread] %newLevel %logger{36} - %property{CATALINA_BASE}  %msg %ex%n</pattern>
+        </encoder>
+    </appender>
+
+
+    <!-- 设置日志输出级别 -->
+    <root level="DEBUG">
+        <appender-ref ref="CONSOLE" />
+    </root>
+
+</configuration>

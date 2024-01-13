@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/apollo-summary/apollo-summary.iml" filepath="$PROJECT_DIR$/apollo-summary/apollo-summary.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-common/eureka-common.iml" filepath="$PROJECT_DIR$/eureka-common/eureka-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/gateway-summary/gateway-summary.iml" filepath="$PROJECT_DIR$/gateway-summary/gateway-summary.iml" />
       <module fileurl="file://$PROJECT_DIR$/logback-summary/logback-summary.iml" filepath="$PROJECT_DIR$/logback-summary/logback-summary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis-plus-sample-id-generator/mybatis-plus-sample-id-generator.iml" filepath="$PROJECT_DIR$/mybatis-plus-sample-id-generator/mybatis-plus-sample-id-generator.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis-summary/mybatis-summary.iml" filepath="$PROJECT_DIR$/mybatis-summary/mybatis-summary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-zookeeper/spring-cloud-zookeeper.iml" filepath="$PROJECT_DIR$/spring-cloud-zookeeper/spring-cloud-zookeeper.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-admin/springboot-admin.iml" filepath="$PROJECT_DIR$/springboot-admin/springboot-admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-summary/springboot-summary.iml" filepath="$PROJECT_DIR$/springboot-summary/springboot-summary.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/springcloud-study.iml" filepath="$PROJECT_DIR$/.idea/springcloud-study.iml" />

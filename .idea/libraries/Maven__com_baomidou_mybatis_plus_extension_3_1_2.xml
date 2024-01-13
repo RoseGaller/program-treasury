@@ -1,0 +1,30 @@
+<component name="libraryTable">
+  <library name="Maven: com.baomidou:mybatis-plus-extension:3.1.2">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.1.2/mybatis-plus-extension-3.1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.1.2/mybatis-plus-extension-3.1.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.1.2/mybatis-plus-extension-3.1.2-sources.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../mybatis-plus" />
+      <root url="file://$PROJECT_DIR$/../../../mybatis-plus/mybatis-plus-annotation/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../../mybatis-plus/mybatis-plus-core/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../../mybatis-plus/mybatis-plus-core/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../../../mybatis-plus/mybatis-plus-extension/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../../mybatis-plus/mybatis-plus-extension/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../../../mybatis-plus/mybatis-plus-generator/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../../mybatis-plus/mybatis-plus-generator/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../../../mybatis-plus/mybatis-plus/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../../../mybatis-plus/mybatis-plus/src/test/resources" />
+      <root url="file://$PROJECT_DIR$/../../../mybatis-plus/spring-boot-starter/mybatis-plus-boot-starter-test/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../../../mybatis-plus/spring-boot-starter/mybatis-plus-boot-starter/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../../../mybatis-plus/spring-boot-starter/mybatis-plus-spring-boot-autoconfigure/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../../mybatis-plus/spring-boot-starter/mybatis-plus-spring-boot-autoconfigure/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../../../mybatis-plus/spring-boot-starter/mybatis-plus-spring-boot-test-autoconfigure/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../../mybatis-plus/spring-boot-starter/mybatis-plus-spring-boot3-starter-test/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../../../mybatis-plus/spring-boot-starter/mybatis-plus-spring-boot3-starter/src/test/java" />
+    </SOURCES>
+  </library>
+</component>

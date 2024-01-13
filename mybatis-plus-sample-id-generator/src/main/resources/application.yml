@@ -1,0 +1,13 @@
+# DataSource Config
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/xc_user
+    username: root
+    password: root
+    type: com.alibaba.druid.pool.DruidDataSource
+
+# Logger Config
+logging:
+  level:
+    com.lct.samples: debug

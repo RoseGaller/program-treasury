@@ -4,6 +4,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 //官网https://logback.qos.ch/index.html
+//TRACE<DEBUG<INFO<WARN<ERROR
 public class HelloWorld extends SampleBase{
 
     public static void main(String[] args) {

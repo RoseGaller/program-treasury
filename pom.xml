@@ -27,6 +27,9 @@
         <module>zuul-summary</module>
         <module>gateway-summary</module>
         <module>logback-summary</module>
+        <module>spring-cloud-zookeeper</module>
+        <module>apollo-summary</module>
+        <module>mybatis-plus-sample-id-generator</module>
     </modules>
 
     <dependencyManagement>

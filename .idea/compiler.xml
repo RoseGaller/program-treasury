@@ -7,26 +7,32 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="logback-summary" />
-        <module name="eureka-common" />
-        <module name="eureka-server" />
-        <module name="user-provider" />
-        <module name="mybatis-summary" />
+        <module name="spring-cloud-zookeeper" />
         <module name="springboot-summary" />
-        <module name="wrap-spring-boot-starter" />
+        <module name="mybatis-summary" />
+        <module name="user-provider" />
+        <module name="mybatis-plus-sample-id-generator" />
+        <module name="eureka-common" />
         <module name="gateway-summary" />
-        <module name="springboot-admin" />
         <module name="zuul-summary" />
+        <module name="eureka-server" />
+        <module name="logback-summary" />
+        <module name="springboot-admin" />
         <module name="user-consumer" />
+        <module name="apollo-summary" />
+        <module name="wrap-spring-boot-starter" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="apollo-summary" target="1.8" />
       <module name="eureka-common" target="1.8" />
       <module name="eureka-server" target="1.8" />
       <module name="gateway-summary" target="1.8" />
       <module name="logback-summary" target="1.8" />
+      <module name="mybatis-plus-sample-id-generator" target="1.8" />
       <module name="mybatis-ssummary" target="1.8" />
       <module name="mybatis-summary" target="1.8" />
+      <module name="spring-cloud-zookeeper" target="1.8" />
       <module name="springboot-admin" target="1.8" />
       <module name="springboot-summary" target="1.8" />
       <module name="springcloud-study" target="1.8" />
@@ -38,12 +44,15 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="apollo-summary" options="-parameters" />
       <module name="eureka-common" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
       <module name="gateway-summary" options="-parameters" />
       <module name="logback-summary" options="-parameters" />
+      <module name="mybatis-plus-sample-id-generator" options="-parameters" />
       <module name="mybatis-ssummary" options="-parameters" />
       <module name="mybatis-summary" options="-parameters" />
+      <module name="spring-cloud-zookeeper" options="-parameters" />
       <module name="springboot-admin" options="-parameters" />
       <module name="springboot-summary" options="-parameters" />
       <module name="user-consumer" options="-parameters" />
