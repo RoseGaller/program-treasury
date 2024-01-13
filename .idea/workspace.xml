@@ -21,211 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="3192e119-4de4-4db3-b653-65ed1107113a" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../springcloud-study-2/out/production/eureka-server/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_csp_sentinel_core_1_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_boot_starter_3_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_generator_3_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_generator_3_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_ctrip_framework_apollo_apollo_client_1_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_ctrip_framework_apollo_apollo_core_1_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_19_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_cli_commons_cli_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_client_4_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_framework_4_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_recipes_4_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_curator_curator_x_discovery_4_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_5_3_beta.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_core_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_zookeeper_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_zookeeper_discovery_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_zookeeper_core_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_zookeeper_discovery_2_1_0_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/6/069ca23b818097cc62b388ca0bab9df304895a18" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/a/0aef2a149e3a068e605290370269c09031c3c6b0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/2/12db0ae6e243304f318fb31c1d3511425d34afdc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/8/18d13903753aa6b2c7bc5811da1d512bb225d85b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/8/287684bf27b9adc3814ba887596bb67e69e8af66" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/b/2b3a70928a4f604f72facf249ada672cfbf18642" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/c/2cf240fb24540f2ae5fdb3ee117ada028213d2d4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/d/2d941c147178d842c17f79a8812c954ba3084c7b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/e/2e897f57b8b770bec700d1f0449a54f5669119f0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/7/37e96c6c2693406d64bf1b368effbf928b9a913d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/c/3c5c43fb6882f87511b4afae5ee27ebf3584e0d0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/a/4ac263b0cc3fe418b7310867669148d21b177077" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/a/5ae6cf667c49086e768dbf89ec57292fe0886d20" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/6/66963871e8850ae684cb053570894a222dc5ff38" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/9/69aa7566377238a69ae9231ff12f6e3fdc5c1fbd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/6/763d310fd12cbce39a4a000d0ce016873c4bef29" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/9/793a8e912e0b20e185b6a6db1a025fc67093ee68" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/4/847413f9fe89f2d6d9a41374c57d3e74cfe86083" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/7/87b4a47c60119cd10758aa20a3905e30017f98ce" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/9/894d645d0943dbb22b889621ebac09b1f0ccb04e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/b/8b1cf1910cb1aa1d0a630f9bca5fb2dd34037184" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/0/a068f18b0e07aee22e670ea9434b549c8ce5445a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/2/a28f1aca318849796a7d6c1fbf245b30034cfe75" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/9/a9743036c76a24d9ed762ee04a0b0302b00809a8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/1/c183679820542bea86d8f1baebc086ceddcbdfd4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/2/c227fa28f67ea26dd661a3ee67fc1844bccf01a5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/3/c37c80ee2dc84da51f4415f4565abc91fef6563c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/8/c8e751306028a16708e11164eb28bbb4fec5498a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/e/ce884e703bf67ed8220a2b1b03cfc480d00bd668" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/1/d16b40b198e6b035e24197c340d1b544dbe3d9fd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/0/e0681f9c4bf3f792d3c0c2b16d80e0cfe5cf04be" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/1/e1aa587ea9848c548e404612991fdf7d06d0f3ad" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/5/e587e6975ccdd3723d465d3faf4e15352c98caf5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/7/f73c0601af9eea7084267b64c9022e3eb367831b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apollo-summary/apollo-summary.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apollo-summary/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apollo-summary/src/main/java/com/lct/ApolloApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apollo-summary/src/main/java/com/lct/CheckIsExistDuplicateInfoProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apollo-summary/src/main/java/com/lct/config/CheckIsExistMockInfoProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apollo-summary/src/main/resources/application-prod.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apollo-summary/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apollo-summary/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback-summary/src/main/java/com/lct/layouts/SampleLayouts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logback-summary/src/main/resources/logback-layouts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-plus-sample-id-generator/mybatis-plus-sample-id-generator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-plus-sample-id-generator/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-plus-sample-id-generator/src/main/java/com/lct/samples/IdGeneratorApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-plus-sample-id-generator/src/main/java/com/lct/samples/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-plus-sample-id-generator/src/main/java/com/lct/samples/incrementer/CustomIdGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-plus-sample-id-generator/src/main/java/com/lct/samples/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-plus-sample-id-generator/src/main/java/com/lct/samples/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-plus-sample-id-generator/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-plus-sample-id-generator/src/test/java/com/lct/samples/IdGeneratorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-summary/src/main/java/com/lct/MysqlGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-summary/src/main/resources/controller.java.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis-summary/src/main/resources/generatorConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-zookeeper/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-zookeeper/spring-cloud-zookeeper.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-zookeeper/src/main/java/com/lct/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-cloud-zookeeper/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-summary/TakinCheckStyle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-summary/src/main/java/com/lct/utils/TimeUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/java/com/lct/interceptor/CustomRequestInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-consumer/src/main/java/com/lct/listener/EagerLoadListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user-provider/src/test/java/com/lct/ApplicationZKTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ch-2/eureka-client-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ch-2/eureka-client-provider/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../feign/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../feign/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/fe7c6f23-c504-4c6a-9ad2-ac561511040e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/fe7c6f23-c504-4c6a-9ad2-ac561511040e.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-01-04T075112.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-01-04T075113.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-01-04T075114.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-01-04T075115.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-01-04T075121.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-01-04T075123.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-01-04T075124.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-01-04T075125-1.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-01-04T075125-2.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-01-04T075125.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-01-04T075126-1.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-01-04T075126.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-01-04T075127-1.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-01-04T075127-2.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-01-04T075127-3.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-01-04T075127-4.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-01-04T075127.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-01-04T075128-1.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-01-04T075128-2.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-01-04T075128-3.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-01-04T075128.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-01-04T075129.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-01-04T075130.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-01-04T075132-1.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-01-04T075132.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-01-04T075133.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-01-04T075134.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-01-04T080015.404.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-01-05T010608.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-01-05T010826.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-01-05T011056.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-01-05T011058.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-01-05T011100.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-01-05T011108.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-01-05T011113.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-01-05T040104.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-01-05T040106.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-01-05T040126.200.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-01-05T040230.200.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-01-05T040558.200.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-01-05T040719.200.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-01-05T041251.200.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-01-05T042154.200.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-01-05T042229.200.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_1_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_annotation_3_1_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_core_3_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_3_3_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_baomidou_mybatis_plus_extension_3_1_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_10_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/springcloud-study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/springcloud-study.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-summary/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-summary/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logback-summary/src/main/java/com/lct/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/logback-summary/src/main/java/com/lct/HelloWorld.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logback-summary/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/logback-summary/src/main/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logback-summary/target/classes/com/lct/HelloWorld.class" beforeDir="false" afterPath="$PROJECT_DIR$/logback-summary/target/classes/com/lct/HelloWorld.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logback-summary/target/classes/logback-turboFilter.xml" beforeDir="false" afterPath="$PROJECT_DIR$/logback-summary/target/classes/logback-turboFilter.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logback-summary/target/classes/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/logback-summary/target/classes/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-summary/mybatis-summary.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-summary/mybatis-summary.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-summary/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-summary/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-summary/src/main/java/com/lct/KeyGenerator/StaticIKeyGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-summary/src/main/java/com/lct/KeyGenerator/StaticIKeyGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-summary/src/main/java/com/lct/MPTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-summary/src/main/java/com/lct/MPTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-summary/src/main/java/com/lct/MybatisPlusTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-summary/src/main/java/com/lct/MybatisPlusTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-summary/src/main/java/com/lct/bean/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-summary/src/main/java/com/lct/bean/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-summary/src/main/java/com/lct/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-summary/src/main/java/com/lct/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-summary/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-summary/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-summary/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-summary/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-summary/target/classes/com/lct/KeyGenerator/StaticIKeyGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-summary/target/classes/com/lct/KeyGenerator/StaticIKeyGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-summary/target/classes/com/lct/MPTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-summary/target/classes/com/lct/MPTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-summary/target/classes/com/lct/MybatisPlusTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-summary/target/classes/com/lct/MybatisPlusTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-summary/target/classes/com/lct/bean/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-summary/target/classes/com/lct/bean/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-summary/target/classes/com/lct/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-summary/target/classes/com/lct/mapper/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-summary/target/classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-summary/target/classes/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-summary/target/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-summary/target/classes/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-admin/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-admin/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-summary/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-summary/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-summary/springboot-summary.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-summary/springboot-summary.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-summary/src/main/java/com/lct/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-summary/src/main/java/com/lct/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-summary/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-summary/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-summary/src/main/resources/some.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-summary/src/main/resources/some.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-summary/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-summary/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-summary/target/classes/com/lct/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-summary/target/classes/com/lct/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-consumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-consumer/src/main/java/com/lct/UserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-consumer/src/main/java/com/lct/UserApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-consumer/src/main/java/com/lct/com/lct/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-consumer/src/main/java/com/lct/com/lct/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-consumer/src/main/java/com/lct/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-consumer/src/main/java/com/lct/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-consumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-consumer/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-consumer/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-consumer/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-consumer/target/classes/com/lct/UserApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-consumer/target/classes/com/lct/UserApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-consumer/target/classes/com/lct/com/lct/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-consumer/target/classes/com/lct/com/lct/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-consumer/target/classes/com/lct/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-consumer/target/classes/com/lct/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-consumer/user-consumer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/user-consumer/user-consumer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-provider/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-provider/src/main/java/com/lct/study/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-provider/src/main/java/com/lct/study/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-provider/src/main/java/com/lct/study/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-provider/src/main/java/com/lct/study/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-provider/src/main/java/com/lct/study/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-provider/src/main/java/com/lct/study/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-provider/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/user-provider/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-provider/src/test/java/com/lct/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-provider/src/test/java/com/lct/HelloWorldService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-provider/src/test/java/com/lct/study.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-provider/user-provider.iml" beforeDir="false" afterPath="$PROJECT_DIR$/user-provider/user-provider.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1344,7 +1142,7 @@
       <workItem from="1704881913399" duration="35686000" />
       <workItem from="1705023716167" duration="22984000" />
       <workItem from="1705109664263" duration="1911000" />
-      <workItem from="1705130090284" duration="3809000" />
+      <workItem from="1705130090284" duration="4308000" />
     </task>
     <task id="LOCAL-00001" summary="总结">
       <created>1704521604774</created>
@@ -1462,40 +1260,40 @@
       <screen x="0" y="25" width="1440" height="809" />
     </state>
     <state x="507" y="188" key="FileChooserDialogImpl/0.25.1440.809@0.25.1440.809" timestamp="1705023775249" />
-    <state width="1398" height="200" key="GridCell.Tab.0.bottom" timestamp="1705136574702">
-      <screen x="0" y="25" width="1440" height="809" />
+    <state width="1118" height="200" key="GridCell.Tab.0.bottom" timestamp="1705142141670">
+      <screen x="0" y="25" width="1440" height="806" />
     </state>
-    <state width="1398" height="180" key="GridCell.Tab.0.bottom/0.25.1440.806@0.25.1440.806" timestamp="1705134400909" />
+    <state width="1118" height="200" key="GridCell.Tab.0.bottom/0.25.1440.806@0.25.1440.806" timestamp="1705142141670" />
     <state width="1394" height="256" key="GridCell.Tab.0.bottom/0.25.1440.807@0.25.1440.807" timestamp="1704981956250" />
     <state width="1398" height="200" key="GridCell.Tab.0.bottom/0.25.1440.809@0.25.1440.809" timestamp="1705136574702" />
     <state width="1398" height="186" key="GridCell.Tab.0.bottom/0.25.1440.811@0.25.1440.811" timestamp="1704527361543" />
     <state width="1057" height="337" key="GridCell.Tab.0.bottom/0.25.1440.813@0.25.1440.813" timestamp="1704767477431" />
     <state width="1398" height="110" key="GridCell.Tab.0.bottom/0.25.1440.814@0.25.1440.814" timestamp="1705033340014" />
     <state width="1398" height="212" key="GridCell.Tab.0.bottom/0.25.1440.817@0.25.1440.817" timestamp="1705032760918" />
-    <state width="1398" height="200" key="GridCell.Tab.0.center" timestamp="1705136574700">
-      <screen x="0" y="25" width="1440" height="809" />
+    <state width="1118" height="200" key="GridCell.Tab.0.center" timestamp="1705142141670">
+      <screen x="0" y="25" width="1440" height="806" />
     </state>
-    <state width="1398" height="180" key="GridCell.Tab.0.center/0.25.1440.806@0.25.1440.806" timestamp="1705134400909" />
+    <state width="1118" height="200" key="GridCell.Tab.0.center/0.25.1440.806@0.25.1440.806" timestamp="1705142141670" />
     <state width="1394" height="256" key="GridCell.Tab.0.center/0.25.1440.807@0.25.1440.807" timestamp="1704981956249" />
     <state width="1398" height="200" key="GridCell.Tab.0.center/0.25.1440.809@0.25.1440.809" timestamp="1705136574700" />
     <state width="1398" height="186" key="GridCell.Tab.0.center/0.25.1440.811@0.25.1440.811" timestamp="1704527361542" />
     <state width="1057" height="337" key="GridCell.Tab.0.center/0.25.1440.813@0.25.1440.813" timestamp="1704767477431" />
     <state width="1398" height="110" key="GridCell.Tab.0.center/0.25.1440.814@0.25.1440.814" timestamp="1705033340013" />
     <state width="1398" height="212" key="GridCell.Tab.0.center/0.25.1440.817@0.25.1440.817" timestamp="1705032760917" />
-    <state width="1398" height="200" key="GridCell.Tab.0.left" timestamp="1705136574699">
-      <screen x="0" y="25" width="1440" height="809" />
+    <state width="1118" height="200" key="GridCell.Tab.0.left" timestamp="1705142141669">
+      <screen x="0" y="25" width="1440" height="806" />
     </state>
-    <state width="1398" height="180" key="GridCell.Tab.0.left/0.25.1440.806@0.25.1440.806" timestamp="1705134400908" />
+    <state width="1118" height="200" key="GridCell.Tab.0.left/0.25.1440.806@0.25.1440.806" timestamp="1705142141669" />
     <state width="1394" height="256" key="GridCell.Tab.0.left/0.25.1440.807@0.25.1440.807" timestamp="1704981956249" />
     <state width="1398" height="200" key="GridCell.Tab.0.left/0.25.1440.809@0.25.1440.809" timestamp="1705136574699" />
     <state width="1398" height="186" key="GridCell.Tab.0.left/0.25.1440.811@0.25.1440.811" timestamp="1704527361541" />
     <state width="1057" height="337" key="GridCell.Tab.0.left/0.25.1440.813@0.25.1440.813" timestamp="1704767477430" />
     <state width="1398" height="110" key="GridCell.Tab.0.left/0.25.1440.814@0.25.1440.814" timestamp="1705033340013" />
     <state width="1398" height="212" key="GridCell.Tab.0.left/0.25.1440.817@0.25.1440.817" timestamp="1705032760917" />
-    <state width="1398" height="200" key="GridCell.Tab.0.right" timestamp="1705136574701">
-      <screen x="0" y="25" width="1440" height="809" />
+    <state width="1118" height="200" key="GridCell.Tab.0.right" timestamp="1705142141670">
+      <screen x="0" y="25" width="1440" height="806" />
     </state>
-    <state width="1398" height="180" key="GridCell.Tab.0.right/0.25.1440.806@0.25.1440.806" timestamp="1705134400909" />
+    <state width="1118" height="200" key="GridCell.Tab.0.right/0.25.1440.806@0.25.1440.806" timestamp="1705142141670" />
     <state width="1394" height="256" key="GridCell.Tab.0.right/0.25.1440.807@0.25.1440.807" timestamp="1704981956249" />
     <state width="1398" height="200" key="GridCell.Tab.0.right/0.25.1440.809@0.25.1440.809" timestamp="1705136574701" />
     <state width="1398" height="186" key="GridCell.Tab.0.right/0.25.1440.811@0.25.1440.811" timestamp="1704527361542" />
@@ -1636,10 +1434,10 @@
     <state x="252" y="151" key="new project wizard/0.25.1440.806@0.25.1440.806" timestamp="1705024226933" />
     <state x="252" y="156" key="new project wizard/0.25.1440.811@0.25.1440.811" timestamp="1704435052474" />
     <state x="252" y="152" key="new project wizard/0.25.1440.813@0.25.1440.813" timestamp="1704765076898" />
-    <state x="348" y="30" width="670" height="672" key="search.everywhere.popup" timestamp="1705135592417">
+    <state x="348" y="30" width="670" height="672" key="search.everywhere.popup" timestamp="1705137198312">
       <screen x="0" y="25" width="1440" height="806" />
     </state>
-    <state x="348" y="30" width="670" height="672" key="search.everywhere.popup/0.25.1440.806@0.25.1440.806" timestamp="1705135592417" />
+    <state x="348" y="30" width="670" height="672" key="search.everywhere.popup/0.25.1440.806@0.25.1440.806" timestamp="1705137198312" />
     <state x="565" y="85" width="670" height="674" key="search.everywhere.popup/0.25.1440.807@0.25.1440.807" timestamp="1704689931034" />
     <state x="565" y="85" width="670" height="675" key="search.everywhere.popup/0.25.1440.809@0.25.1440.809" timestamp="1705035307513" />
     <state x="565" y="84" width="670" height="676" key="search.everywhere.popup/0.25.1440.811@0.25.1440.811" timestamp="1704529018731" />
