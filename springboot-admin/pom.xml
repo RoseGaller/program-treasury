@@ -31,7 +31,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
                     <executable>true</executable>
-                    <mainClass>com.example.demo.SpringbootAdminApplication</mainClass>
+                    <mainClass>com.lct.SpringbootAdminApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>
