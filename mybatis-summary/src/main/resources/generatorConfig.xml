@@ -5,10 +5,10 @@
 
 <generatorConfiguration>
 
-    <properties resource="application.yaml"/>
+<!--    <properties resource="application.yaml"/>-->
     <!-- mysql驱动的位置 -->
     <classPathEntry
-            location="/Users/IdeaProjects/seata/distribution/lib/mysql-connector-java-5.1.30.jar"/>
+            location="/Users/***/IdeaProjects/seata/distribution/lib/mysql-connector-java-5.1.30.jar"/>
 
     <context id="Tables" targetRuntime="MyBatis3">
 
@@ -33,6 +33,11 @@
          NUMERIC 类型解析为java.math.BigDecimal -->
         <javaTypeResolver>
             <!-- 是否使用bigDecimal， false可自动转化以下类型（Long, Integer, Short, etc.） -->
+            <!-- 如果精度>0或者长度>18，就会使用java.math.BigDecimal
+                 如果精度=0并且10<=长度<=18，就会使用java.lang.Long
+                 如果精度=0并且5<=长度<=9，就会使用java.lang.Integer
+                 如果精度=0并且长度<5，就会使用java.lang.Short
+               -->
             <property name="forceBigDecimals" value="false"/>
         </javaTypeResolver>
 
@@ -60,7 +65,7 @@
         <!-- schema即为数据库名 tableName为对应的数据库表 domainObjectName是要生成的实体类 enable*ByExample
             是否生成 example类 -->
 
-        <table schema="xc_user" tableName="xc_user"
+        <table schema="xc_user" tableName="user"
                domainObjectName="User" enableCountByExample="false"
                enableDeleteByExample="false" enableSelectByExample="false"
                enableUpdateByExample="false">

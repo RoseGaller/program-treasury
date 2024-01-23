@@ -1,6 +1,8 @@
 package com.lct;
 
 import com.baomidou.mybatisplus.core.MybatisSqlSessionFactoryBuilder;
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
 import com.lct.bean.User;
 import com.lct.mapper.UserMapper;
 import org.apache.ibatis.io.Resources;
@@ -18,7 +20,7 @@ import java.util.Collection;
 import java.util.List;
 import java.util.Optional;
 
-public class MPTest {
+public class MybatisTest {
 
     InputStream inputStream = null;
 
@@ -39,7 +41,9 @@ public class MPTest {
 
     @Test
     public void testMybatis() throws IOException {
+        PageHelper.startPage(1, 2);
         List<User> userList = userMapper.findAll();
+        PageInfo page = new PageInfo(userList);
         Assert.assertEquals(5,userList.size());
         Assert.assertEquals(6,userList.size());
     }

@@ -6,12 +6,12 @@
     <!-- 添加 useGeneratedKeys 和 keyProperty 属性 返自增id-->
     <!-- 使用#{}方式进行取值：采用的是参数预编译的方式，参数的位置使用？进行替代，不会出现sql注入的问题   -->
     <!-- 使用${}方式进行取值：采用的是直接跟sql语句进行拼接的方式，比如传递表名时，可以使用${}   -->
-    <insert id="insertByAutoId" parameterType="com.lct.bean.User"
-             keyProperty="id">
-
+    <insert id="insert" parameterType="com.lct.bean.User">
         insert into user
         <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="id != null">
                 id,
+            </if>
             <if test="name != null">
                 name,
             </if>
@@ -24,7 +24,9 @@
             </if>
         </trim>
         <trim prefix="values (" suffix=")" suffixOverrides=",">
-                #{id,jdbcType=VARCHAR},
+            <if test="id != null">
+                #{id,jdbcType=BIGINT},
+            </if>
             <if test="name != null">
                 #{name,jdbcType=VARCHAR},
             </if>
@@ -37,7 +39,7 @@
         </trim>
     </insert>
     <!-- 查询所有 -->
-    <select id="findAll" resultType="com.lct.bean.User">
+    <select id="findAll" resultType="com.lct.bean.User" >
         select * from user
     </select>
 </mapper>
