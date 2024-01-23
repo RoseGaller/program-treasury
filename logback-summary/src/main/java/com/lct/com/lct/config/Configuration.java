@@ -9,6 +9,7 @@ import java.util.Map;
 public class Configuration {
 
     public static void main(String[] args) {
+        //-DLOG_DIR=/var/log/application system properties
         Logger logger = (Logger) LoggerFactory.getLogger(Configuration.class);
         LoggerContext loggerContext =  logger.getLoggerContext();
         //获取logback.xml中的属性信息
