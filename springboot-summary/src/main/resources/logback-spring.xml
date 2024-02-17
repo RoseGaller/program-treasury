@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 配置文件修改时重新加载，默认true -->
+<configuration scan="false" scanPeriod="1seconds" debug="true">
+
+    <property name="CATALINA_BASE" value="logs"></property>
+
+    <property name="USERNAME" value="admin"></property>
+
+    <springProperty scope="context" name="fluentHost" source="myapp.fluentd.host"
+                    defaultValue="localhost"/>
+
+    <!-- 业务名称 -->
+    <springProperty scope="context" name="APP_NAME" source="spring.application.name"/>
+
+    <turboFilter class="com.lct.filter.SampleFilter"/>
+
+    <!-- 控制台输出 -->
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder charset="UTF-8">
+            <!-- 输出日志记录格式 -->
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %property{APP_NAME} - %msg%n</pattern>
+        </encoder>
+    </appender>
+    <!-- 第一个文件输出,每天产生一个文件 -->
+<!--    <appender name="FILE1" class="ch.qos.logback.core.rolling.RollingFileAppender">-->
+<!--        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">-->
+<!--            &lt;!&ndash; 输出文件路径+文件名 &ndash;&gt;-->
+<!--            <fileNamePattern>${CATALINA_BASE}/aa.%d{yyyyMMdd}.log</fileNamePattern>-->
+<!--            &lt;!&ndash; 保存30天的日志 &ndash;&gt;-->
+<!--            <maxHistory>30</maxHistory>-->
+<!--        </rollingPolicy>-->
+<!--        <encoder charset="UTF-8">-->
+<!--            &lt;!&ndash; 输出日志记录格式 &ndash;&gt;-->
+<!--            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>-->
+<!--        </encoder>-->
+<!--    </appender>-->
+
+    <!-- 每天产生一个文件 -->
+<!--    <appender name="FILE2" class="ch.qos.logback.core.rolling.RollingFileAppender">-->
+<!--        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">-->
+<!--            <fileNamePattern>${CATALINA_BASE}/bb.%d{yyyyMMdd}.log</fileNamePattern>-->
+<!--            <maxHistory>30</maxHistory>-->
+<!--        </rollingPolicy>-->
+<!--        <encoder charset="UTF-8">-->
+<!--            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>-->
+<!--        </encoder>-->
+<!--    </appender>-->
+    <appender name="SIFT" class="ch.qos.logback.classic.sift.SiftingAppender">
+        <discriminator >
+            <key>USERNAME</key>
+            <defaultValue>normal</defaultValue>
+        </discriminator>
+        <sift>
+            <appender name="FILE-${USERNAME}" class="ch.qos.logback.core.FileAppender">
+                <file>${USERNAME}-${APP_NAME}.log</file>
+                <!--  false:覆盖，              -->
+                <!--                <append>false</append>-->
+                <layout class="ch.qos.logback.classic.PatternLayout">
+                    <pattern>%d [%thread] %level %mdc %logger{35} %msg%n</pattern>
+                </layout>
+            </appender>
+        </sift>
+    </appender>
+
+    <!-- 设置日志输出级别 -->
+    <root level="DEBUG">
+        <appender-ref ref="CONSOLE" />
+<!--        <appender-ref ref="SIFT" />-->
+    </root>
+<!--    <logger name="file1" level="DEBUG">-->
+<!--        <appender-ref ref="FILE1" />-->
+<!--    </logger>-->
+<!--    <logger name="file1" level="INFO">-->
+<!--        <appender-ref ref="FILE2" />-->
+<!--    </logger>-->
+    <!-- 自定义logger -->
+<!--    <logger name="custom" level="INFO">-->
+<!--        <appender-ref ref="CUSTOM" />-->
+<!--    </logger>-->
+</configuration>

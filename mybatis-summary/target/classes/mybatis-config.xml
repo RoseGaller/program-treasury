@@ -18,11 +18,15 @@
         <plugin interceptor="com.lct.plugin.ExamplePlugin">
             <property name="test" value="test"/>
         </plugin>
+        <plugin interceptor="com.github.pagehelper.PageInterceptor">
+            <!-- config params as the following -->
+            <property name="helperDialect" value="mysql"/>
+        </plugin>
         <!--   非法sql检查    -->
 <!--        <plugin interceptor="com.baomidou.mybatisplus.extension.plugins.IllegalSQLInterceptor">-->
 <!--        </plugin>-->
         <!--   分页插件     -->
-        <plugin interceptor="com.baomidou.mybatisplus.extension.plugins.PaginationInterceptor"/>
+<!--        <plugin interceptor="com.baomidou.mybatisplus.extension.plugins.PaginationInterceptor"/>-->
     </plugins>
     <!-- 7、配置environments-->
     <environments default="development">

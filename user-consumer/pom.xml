@@ -50,6 +50,12 @@
                 </exclusion>
             </exclusions>
         </dependency>
+        <!--  引入ApacheHttpClient，未引入时，feign每次都会创建连接  -->
+        <dependency>
+            <groupId>com.netflix.feign</groupId>
+            <artifactId>feign-httpclient</artifactId>
+            <version>8.18.0</version>
+        </dependency>
 
 <!--        <dependency>-->
 <!--            <groupId>org.springframework.cloud</groupId>-->

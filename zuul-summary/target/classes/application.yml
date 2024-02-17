@@ -4,7 +4,7 @@ server:
   tomcat:
     accept-count: 1000
     max-connections: 10000
-    max-threads: 500
+    max-threads: 200
     min-spare-threads: 10
 spring:
   application:

@@ -6,7 +6,6 @@ spring:
 
 eureka:
   client:
-    registryFetchIntervalSeconds: 3 #定时拉取服务信息的时间间隔
     serviceUrl: # eureka server的路径
       defaultZone:
         http://localhost:8886/eureka/, #把 eureka 集群中的所有 url 都填写了进来，也可以只写一台，因为各个eureka server 可以同步注册表
@@ -21,25 +20,32 @@ user-provider:
     ReadTimeout: 1000
 ribbon:
   #重试要考虑幂等性
-  MaxAutoRetries: 3 #切换实例的重试次数
-  MaxAutoRetriesNextServer: 11 #是否需要对所有操作请求都进行重试
-  OkToRetryOnAllOperations: true #不配置只会对 Get 请求进行重试等规则
-  ServerListRefreshInterval: 2000
+  MaxAutoRetries: 3 #重试次数
+  MaxAutoRetriesNextServer: 0 #禁用服务调用失败后在下一个服务端节点的自动重试
+  OkToRetryOnAllOperations: true #不配置只会对 Get 请求进行重试
+  ServerListRefreshInterval: 2000 #更新serverList的间隔，默认30s
   ReadTimeout: 1000
   ConnectTimeout: 1000
   eager-load:
     enabled: true #提前初始化ribbon中的子容器
-  #RoundRobinLoadBalancer服务名称，提前初始化这些服务的Ribbon configuration
+    clients:  #RoundRobinLoadBalancer服务名称，提前初始化这些服务的Ribbon configuration
 #如果配置了ribbon和feign的超时时间，以feign为主
 #feign.client.config.服务名称.connectTimeout
 #feign.client.config.服务名称.readTimeout
+#默认都为1s,同时配置readTimeout和connectTimeout才会生效
+#  feign.client.config.default.readTimeout=3000 全局读超时时间
+#  feign.client.config.default.connectTimeout=3000全局连接超时时间
+#  feign.client.config.clientsdk.readTimeout=2000 针对服务的单独的读超时时间
+#  feign.client.config.clientsdk.connectTimeout=2000 针对服务的单独的连接超时时间
 feign:
+  #连接池信息
   httpclient:
-    max-connections-per-route: 11 #
-    max-connections: 11 #
+    max-connections-per-route: 2 #同一个主机/域名的最大并发请求数为 2
+    max-connections: 20 #所有主机整体最大并发为20
+
   client:
     defaultToProperties: true # true：表示配置优先；false：表示代码优先
-    config: {"user-provider":{"connectTimeout":1,"readTimeout":1,"loggerLevel":"FULL"}}
+    config: {"user-provider":{"connectTimeout":1,"readTimeout":1,"loggerLevel":"FULL"},"default":{"loggerLevel":"FULL"}}
 logging:
   level:
     root:

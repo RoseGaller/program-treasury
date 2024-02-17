@@ -1,8 +1,11 @@
 package com.lct.study.bean;
 
+import com.lct.study.processor.ToString;
+
 import java.util.Date;
 
 
+@ToString
 public class User {
     private String id;
 

@@ -4,8 +4,11 @@ import com.lct.study.bean.User;
 import com.lct.study.dao.UserMapper;
 import com.lct.study.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.retry.annotation.Backoff;
+import org.springframework.retry.annotation.Retryable;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
+import org.springframework.transaction.interceptor.TransactionAspectSupport;
 
 import java.util.Date;
 
@@ -15,6 +18,8 @@ public class UserServiceImpl  implements UserService {
     @Autowired
     private UserMapper userMapper;
 
+
+    @Retryable(value = Exception.class,maxAttempts = 3,backoff = @Backoff(delay = 1000,multiplier = 1.5))
     @Override
     public User getById(String id) throws Exception {
         if(id.equals("46")){
@@ -35,7 +40,8 @@ public class UserServiceImpl  implements UserService {
     //也会生效。如果我们需要对Exception执行回滚操作，但对于RuntimeException不执行回滚操作,可以配置
     //@Transactional(rollbackFor=Exception.class,noRollbackFor=RuntimeException.class)
     @Override
-//    @Transactional(rollbackFor = Exception.class)
+    //@Transactional(rollbackFor = Exception.class)
+    //@Transactional生效还有一个原原则，就是必须通过代理过的类从外部调用目标方法才能生效
     @Transactional
     public void  insert() throws Exception {
         //spring在处理事务时，如果没有在Transactional中配置rollback属性
@@ -52,5 +58,27 @@ public class UserServiceImpl  implements UserService {
         userMapper.insert(user);
         throw  new Exception("用户已经存在");
     }
+
+    @Transactional
+    public void test(){
+        try {
+            User user = new User();
+            user.setId("111111111");
+            user.setUsername("test1111111");
+            user.setPassword("1");
+            user.setUtype("1");
+            user.setStatus("1");
+            user.setCreateTime(new Date());
+            user.setName("test");
+            userMapper.insert(user);
+            throw  new RuntimeException("error");
+        }catch (Exception e){ //捕获异常，不会回滚；动设置让当前事务处于回滚状态
+            TransactionAspectSupport.currentTransactionStatus().setRollbackOnly();
+        }
+    }
+
+    //比较 Integer 的值请使用 equals，而不是 ==
+    //使用 BigDecimal 表示和计算浮点数，且务必使用字符串的构造方法来初始化BigDecimal
+    //BigDecimal 有 scale 和 precision 的概念，scale 表示小数点右边的位数，而 precision 表示精度，也就是有效数字的长度
 
 }

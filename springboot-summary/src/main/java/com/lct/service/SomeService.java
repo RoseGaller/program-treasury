@@ -2,5 +2,5 @@ package com.lct.service;
 
 public interface SomeService {
 
-    public void doSome();
+    public void doSome() throws Exception;
 }

@@ -26,7 +26,6 @@ public class DynamicRouteLocator extends SimpleRouteLocator implements Refreshab
     protected Map<String, ZuulProperties.ZuulRoute> locateRoutes() {
         LinkedHashMap<String, ZuulProperties.ZuulRoute> routesMap = new LinkedHashMap<String, ZuulProperties.ZuulRoute>();
         routesMap.putAll(super.locateRoutes());
-
         //动态加载路由信息，从数据库加载
         return  routesMap;
     }

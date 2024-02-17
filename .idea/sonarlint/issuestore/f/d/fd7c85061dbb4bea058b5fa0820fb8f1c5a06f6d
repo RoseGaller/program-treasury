@@ -1,0 +1,12 @@
+
+^
+java:S1128"ARemove this unused import 'ch.qos.logback.classic.LoggerContext'.(Ğáóò8İÃØ”Ö1
+g
+java:S1128"ERemove this unused import 'ch.qos.logback.classic.spi.ILoggingEvent'.(È´ù¥şÿÿÿÿ8ßÃØ”Ö1
+`
+java:S1128">Remove this unused import 'ch.qos.logback.core.filter.Filter'.(èóÌëúÿÿÿÿ8áÃØ”Ö1
+R
+java:S1128
+"5Remove this unused import 'org.slf4j.ILoggerFactory'.(ÿ÷…£8ãÃØ”Ö1
+Q
+java:S1128"4Remove this unused import 'org.slf4j.LoggerFactory'.(–ÿÚŞ8äÃØ”Ö1

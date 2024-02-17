@@ -1,0 +1,8 @@
+1.在表查询中，一律不要使用 * 作为查询的字段列表，需要哪些字段必须明确写明
+2.POJO 类的布尔属性不能加 is，而数据库字段必须加 is_，要求在 resultMap 中进行字段与属性之间的映射
+3.sql.xml 配置参数使用：#{}，#param# 不要使用${} 此种方式容易出现 SQL 注入
+4.iBATIS 自带的 queryForList(String statementName,int start,int size)不推荐使用
+5.不允许直接拿 HashMap 与 Hashtable 作为查询结果集的输出
+6.更新数据表记录时，必须同时更新记录对应的 gmt_modified 字段值为当前时间
+7.不要写一个大而全的数据更新接口
+8.@Transactional 事务不要滥用

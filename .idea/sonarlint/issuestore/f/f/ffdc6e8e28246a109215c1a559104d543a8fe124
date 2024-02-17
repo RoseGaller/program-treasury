@@ -1,0 +1,6 @@
+
+[	java:S1124"FDefine and throw a dedicated exception instead of using a generic one.(’¯Ñ‡
+f
+java:S22593"KA "NullPointerException" could be thrown; "activeProfile" is nullable here.(Éþü•ùÿÿÿÿ
+m
+java:S1128"KRemove this unused import 'org.springframework.context.annotation.Profile'.(ØÝ¥Ýøÿÿÿÿ8úÝÿöÕ1

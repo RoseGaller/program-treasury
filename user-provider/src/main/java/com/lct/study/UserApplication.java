@@ -2,6 +2,7 @@ package com.lct.study;
 
 
 import com.lct.study.health.CustomHealthIndicator;
+import org.dromara.dynamictp.core.spring.EnableDynamicTp;
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
@@ -11,6 +12,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
+import org.springframework.retry.annotation.EnableRetry;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -19,6 +21,10 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 @EnableTransactionManagement
 @EnableAspectJAutoProxy
+@EnableRetry
+
+//1、开启动态线程池 2、配置文件：spring.dynamic.tp.enabled=true
+@EnableDynamicTp
 public class UserApplication implements ApplicationContextAware {
 
     public ApplicationContext applicationContext;

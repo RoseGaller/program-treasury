@@ -1,5 +1,6 @@
 
 y
-java:S1104"^Make applicationContext a static final constant or non-public and provide accessors if needed.(ÀçñÀÿÿÿÿÿ
+java:S1104"^Make applicationContext a static final constant or non-public and provide accessors if needed.(ÀçñÀÿÿÿÿÿ
 r
-java:S1128	"URemove this unused import 'org.springframework.boot.autoconfigure.domain.EntityScan'.(›Ù¯8Ëäû–Î1
+java:S1128
+"URemove this unused import 'org.springframework.boot.autoconfigure.domain.EntityScan'.(›Ù¯8´úîÀ×1

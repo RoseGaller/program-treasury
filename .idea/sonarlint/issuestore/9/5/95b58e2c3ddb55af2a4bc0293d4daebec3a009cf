@@ -1,0 +1,21 @@
+
+L
+java:S3740"/Provide the parametrized type for this generic.(³åçÖ8ç•Ÿ£Ó1
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ªÂ¬§
+I
+java:S3011'",This accessibility update should be removed.(˜ÂÓ˜8ÿ•Ÿ£Ó1
+N
+java:S3011(",This accessibility bypass should be removed.(åªäÁıÿÿÿÿ8€–Ÿ£Ó1
+N	java:S1062"9Replace this use of System.out or System.err by a logger.(ï–ª®
+U	java:S1068"9Replace this use of System.out or System.err by a logger.(¦§àœ8öŞŸ£Ó1
+h
+java:S1128"RRemove this unused import 'org.apache.ibatis.executor.parameter.ParameterHandler'.(Ë’‡Å
+h
+java:S1128"RRemove this unused import 'org.apache.ibatis.executor.statement.StatementHandler'.(²·Ñ
+o
+java:S1128
+"YRemove this unused import 'org.apache.ibatis.scripting.defaults.DefaultParameterHandler'.(Š—¥ÿ
+F
+java:S1128"0Remove this unused import 'java.sql.Connection'.(¥ËôÖ
+R
+java:S1128"7Remove this unused import 'java.sql.PreparedStatement'.(òÄ™ƒÿÿÿÿÿ

@@ -1,0 +1,564 @@
+2024-01-31 18:22:06,405 [http-nio-9888-exec-1] DEBUG USERNAME=lisi o.s.web.servlet.DispatcherServlet GET "/test", parameters={}
+2024-01-31 18:22:06,409 [http-nio-9888-exec-1] DEBUG USERNAME=lisi o.s.w.s.m.m.a.RequestMappingHandlerMapping Mapped to public java.lang.String com.lct.controller.TestController.test()
+2024-01-31 18:22:06,415 [http-nio-9888-exec-1] DEBUG USERNAME=lisi com.lct.controller.TestController 测试MD
+2024-01-31 18:22:06,415 [http-nio-9888-exec-1] INFO USERNAME=lisi com.lct.controller.TestController 参数：port = 9888,
+2024-01-31 18:22:06,417 [http-nio-9888-exec-1] DEBUG USERNAME=lisi com.lct.controller.TestController Tomcat 线程
+2024-01-31 18:22:06,467 [http-nio-9888-exec-1] DEBUG USERNAME=lisi o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+2024-01-31 18:22:06,470 [http-nio-9888-exec-1] DEBUG USERNAME=lisi o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor Writing [APIResponse(success=true, data=Hello!  9888  zh, code=2000, message=OK)]
+2024-01-31 18:22:06,491 [http-nio-9888-exec-1] DEBUG USERNAME=lisi o.s.web.servlet.DispatcherServlet Failed to complete request: java.lang.ClassCastException: com.lct.bean.APIResponse cannot be cast to java.lang.String
+2024-01-31 18:22:06,507 [http-nio-9888-exec-1] ERROR USERNAME=lisi o.a.c.c.C.[.[.[.[dispatcherServlet] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.ClassCastException: com.lct.bean.APIResponse cannot be cast to java.lang.String] with root cause
+java.lang.ClassCastException: com.lct.bean.APIResponse cannot be cast to java.lang.String
+	at org.springframework.http.converter.StringHttpMessageConverter.getContentLength(StringHttpMessageConverter.java:44)
+	at org.springframework.http.converter.AbstractHttpMessageConverter.addDefaultHeaders(AbstractHttpMessageConverter.java:260)
+	at org.springframework.http.converter.AbstractHttpMessageConverter.write(AbstractHttpMessageConverter.java:211)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:293)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:180)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:122)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.lct.filter.LogbackFilter.doFilter(LogbackFilter.java:30)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.lct.filter.SomeFilter.doFilter(SomeFilter.java:13)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:114)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:104)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2024-01-31 18:22:06,511 [http-nio-9888-exec-1] DEBUG USERNAME=lisi o.s.web.servlet.DispatcherServlet "ERROR" dispatch for GET "/error", parameters={}
+2024-01-31 18:22:06,513 [http-nio-9888-exec-1] DEBUG USERNAME=lisi o.s.w.s.m.m.a.RequestMappingHandlerMapping Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2024-01-31 18:22:06,521 [http-nio-9888-exec-1] DEBUG USERNAME=lisi o.s.w.s.m.m.a.HttpEntityMethodProcessor Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-01-31 18:22:06,521 [http-nio-9888-exec-1] DEBUG USERNAME=lisi o.s.w.s.m.m.a.HttpEntityMethodProcessor Writing [APIResponse(success=true, data={timestamp=Wed Jan 31 18:22:06 CST 2024, status=500, error=Internal S (truncated)...]
+2024-01-31 18:22:06,546 [http-nio-9888-exec-1] DEBUG USERNAME=lisi o.s.web.servlet.DispatcherServlet Exiting from "ERROR" dispatch, status 500
+2024-01-31 18:23:04,262 [http-nio-9888-exec-2] DEBUG USERNAME=lisi o.s.web.servlet.DispatcherServlet GET "/test", parameters={}
+2024-01-31 18:23:04,263 [http-nio-9888-exec-2] DEBUG USERNAME=lisi o.s.w.s.m.m.a.RequestMappingHandlerMapping Mapped to public java.lang.String com.lct.controller.TestController.test()
+2024-01-31 18:23:04,263 [http-nio-9888-exec-2] DEBUG USERNAME=lisi com.lct.controller.TestController 测试MD
+2024-01-31 18:23:04,263 [http-nio-9888-exec-2] INFO USERNAME=lisi com.lct.controller.TestController 参数：port = 9888,
+2024-01-31 18:23:04,263 [http-nio-9888-exec-2] DEBUG USERNAME=lisi com.lct.controller.TestController Tomcat 线程
+2024-01-31 18:23:04,264 [http-nio-9888-exec-2] DEBUG USERNAME=lisi o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+2024-01-31 18:23:04,264 [http-nio-9888-exec-2] DEBUG USERNAME=lisi o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor Writing [APIResponse(success=true, data=Hello!  9888  zh, code=2000, message=OK)]
+2024-01-31 18:23:04,265 [http-nio-9888-exec-2] DEBUG USERNAME=lisi o.s.web.servlet.DispatcherServlet Failed to complete request: java.lang.ClassCastException: com.lct.bean.APIResponse cannot be cast to java.lang.String
+2024-01-31 18:23:04,265 [http-nio-9888-exec-2] ERROR USERNAME=lisi o.a.c.c.C.[.[.[.[dispatcherServlet] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.ClassCastException: com.lct.bean.APIResponse cannot be cast to java.lang.String] with root cause
+java.lang.ClassCastException: com.lct.bean.APIResponse cannot be cast to java.lang.String
+	at org.springframework.http.converter.StringHttpMessageConverter.getContentLength(StringHttpMessageConverter.java:44)
+	at org.springframework.http.converter.AbstractHttpMessageConverter.addDefaultHeaders(AbstractHttpMessageConverter.java:260)
+	at org.springframework.http.converter.AbstractHttpMessageConverter.write(AbstractHttpMessageConverter.java:211)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:293)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:180)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:122)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.lct.filter.LogbackFilter.doFilter(LogbackFilter.java:30)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.lct.filter.SomeFilter.doFilter(SomeFilter.java:13)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:114)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:104)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2024-01-31 18:23:04,266 [http-nio-9888-exec-2] DEBUG USERNAME=lisi o.s.web.servlet.DispatcherServlet "ERROR" dispatch for GET "/error", parameters={}
+2024-01-31 18:23:04,267 [http-nio-9888-exec-2] DEBUG USERNAME=lisi o.s.w.s.m.m.a.RequestMappingHandlerMapping Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2024-01-31 18:23:04,269 [http-nio-9888-exec-2] DEBUG USERNAME=lisi o.s.w.s.m.m.a.HttpEntityMethodProcessor Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-01-31 18:23:04,269 [http-nio-9888-exec-2] DEBUG USERNAME=lisi o.s.w.s.m.m.a.HttpEntityMethodProcessor Writing [APIResponse(success=true, data={timestamp=Wed Jan 31 18:23:04 CST 2024, status=500, error=Internal S (truncated)...]
+2024-01-31 18:23:04,270 [http-nio-9888-exec-2] DEBUG USERNAME=lisi o.s.web.servlet.DispatcherServlet Exiting from "ERROR" dispatch, status 500
+2024-01-31 18:23:30,783 [http-nio-9888-exec-3] DEBUG USERNAME=lisi o.s.web.servlet.DispatcherServlet GET "/test", parameters={}
+2024-01-31 18:23:30,785 [http-nio-9888-exec-3] DEBUG USERNAME=lisi o.s.w.s.m.m.a.RequestMappingHandlerMapping Mapped to public java.lang.String com.lct.controller.TestController.test()
+2024-01-31 18:23:30,787 [http-nio-9888-exec-3] DEBUG USERNAME=lisi com.lct.controller.TestController 测试MD
+2024-01-31 18:23:30,787 [http-nio-9888-exec-3] INFO USERNAME=lisi com.lct.controller.TestController 参数：port = 9888,
+2024-01-31 18:23:30,787 [http-nio-9888-exec-3] DEBUG USERNAME=lisi com.lct.controller.TestController Tomcat 线程
+2024-01-31 18:23:30,787 [http-nio-9888-exec-3] DEBUG USERNAME=lisi o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+2024-01-31 18:23:30,787 [http-nio-9888-exec-3] DEBUG USERNAME=lisi o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor Writing [APIResponse(success=true, data=Hello!  9888  zh, code=2000, message=OK)]
+2024-01-31 18:23:30,788 [http-nio-9888-exec-3] DEBUG USERNAME=lisi o.s.web.servlet.DispatcherServlet Failed to complete request: java.lang.ClassCastException: com.lct.bean.APIResponse cannot be cast to java.lang.String
+2024-01-31 18:23:30,789 [http-nio-9888-exec-3] ERROR USERNAME=lisi o.a.c.c.C.[.[.[.[dispatcherServlet] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.ClassCastException: com.lct.bean.APIResponse cannot be cast to java.lang.String] with root cause
+java.lang.ClassCastException: com.lct.bean.APIResponse cannot be cast to java.lang.String
+	at org.springframework.http.converter.StringHttpMessageConverter.getContentLength(StringHttpMessageConverter.java:44)
+	at org.springframework.http.converter.AbstractHttpMessageConverter.addDefaultHeaders(AbstractHttpMessageConverter.java:260)
+	at org.springframework.http.converter.AbstractHttpMessageConverter.write(AbstractHttpMessageConverter.java:211)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:293)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:180)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:122)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.lct.filter.LogbackFilter.doFilter(LogbackFilter.java:30)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.lct.filter.SomeFilter.doFilter(SomeFilter.java:13)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:114)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:104)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2024-01-31 18:23:30,790 [http-nio-9888-exec-3] DEBUG USERNAME=lisi o.s.web.servlet.DispatcherServlet "ERROR" dispatch for GET "/error", parameters={}
+2024-01-31 18:23:30,791 [http-nio-9888-exec-3] DEBUG USERNAME=lisi o.s.w.s.m.m.a.RequestMappingHandlerMapping Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2024-01-31 18:23:30,792 [http-nio-9888-exec-3] DEBUG USERNAME=lisi o.s.w.s.m.m.a.HttpEntityMethodProcessor Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-01-31 18:23:30,792 [http-nio-9888-exec-3] DEBUG USERNAME=lisi o.s.w.s.m.m.a.HttpEntityMethodProcessor Writing [APIResponse(success=true, data={timestamp=Wed Jan 31 18:23:30 CST 2024, status=500, error=Internal S (truncated)...]
+2024-01-31 18:23:30,793 [http-nio-9888-exec-3] DEBUG USERNAME=lisi o.s.web.servlet.DispatcherServlet Exiting from "ERROR" dispatch, status 500
+2024-01-31 18:23:55,718 [http-nio-9888-exec-4] DEBUG USERNAME=lisi o.s.web.servlet.DispatcherServlet GET "/test", parameters={}
+2024-01-31 18:23:55,718 [http-nio-9888-exec-4] DEBUG USERNAME=lisi o.s.w.s.m.m.a.RequestMappingHandlerMapping Mapped to public java.lang.String com.lct.controller.TestController.test()
+2024-01-31 18:23:55,718 [http-nio-9888-exec-4] DEBUG USERNAME=lisi com.lct.controller.TestController 测试MD
+2024-01-31 18:23:55,718 [http-nio-9888-exec-4] INFO USERNAME=lisi com.lct.controller.TestController 参数：port = 9888,
+2024-01-31 18:23:55,718 [http-nio-9888-exec-4] DEBUG USERNAME=lisi com.lct.controller.TestController Tomcat 线程
+2024-01-31 18:23:55,719 [http-nio-9888-exec-4] DEBUG USERNAME=lisi o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+2024-01-31 18:23:55,719 [http-nio-9888-exec-4] DEBUG USERNAME=lisi o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor Writing [APIResponse(success=true, data=Hello!  9888  zh, code=2000, message=OK)]
+2024-01-31 18:23:55,719 [http-nio-9888-exec-4] DEBUG USERNAME=lisi o.s.web.servlet.DispatcherServlet Failed to complete request: java.lang.ClassCastException: com.lct.bean.APIResponse cannot be cast to java.lang.String
+2024-01-31 18:23:55,720 [http-nio-9888-exec-4] ERROR USERNAME=lisi o.a.c.c.C.[.[.[.[dispatcherServlet] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.ClassCastException: com.lct.bean.APIResponse cannot be cast to java.lang.String] with root cause
+java.lang.ClassCastException: com.lct.bean.APIResponse cannot be cast to java.lang.String
+	at org.springframework.http.converter.StringHttpMessageConverter.getContentLength(StringHttpMessageConverter.java:44)
+	at org.springframework.http.converter.AbstractHttpMessageConverter.addDefaultHeaders(AbstractHttpMessageConverter.java:260)
+	at org.springframework.http.converter.AbstractHttpMessageConverter.write(AbstractHttpMessageConverter.java:211)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:293)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:180)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:122)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.lct.filter.LogbackFilter.doFilter(LogbackFilter.java:30)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.lct.filter.SomeFilter.doFilter(SomeFilter.java:13)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:114)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:104)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2024-01-31 18:23:55,721 [http-nio-9888-exec-4] DEBUG USERNAME=lisi o.s.web.servlet.DispatcherServlet "ERROR" dispatch for GET "/error", parameters={}
+2024-01-31 18:23:55,721 [http-nio-9888-exec-4] DEBUG USERNAME=lisi o.s.w.s.m.m.a.RequestMappingHandlerMapping Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2024-01-31 18:23:55,722 [http-nio-9888-exec-4] DEBUG USERNAME=lisi o.s.w.s.m.m.a.HttpEntityMethodProcessor Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-01-31 18:23:55,722 [http-nio-9888-exec-4] DEBUG USERNAME=lisi o.s.w.s.m.m.a.HttpEntityMethodProcessor Writing [APIResponse(success=true, data={timestamp=Wed Jan 31 18:23:55 CST 2024, status=500, error=Internal S (truncated)...]
+2024-01-31 18:23:55,723 [http-nio-9888-exec-4] DEBUG USERNAME=lisi o.s.web.servlet.DispatcherServlet Exiting from "ERROR" dispatch, status 500
+2024-01-31 18:25:32,027 [http-nio-9888-exec-1] DEBUG USERNAME=lisi o.s.web.servlet.DispatcherServlet GET "/test", parameters={}
+2024-01-31 18:25:32,029 [http-nio-9888-exec-1] DEBUG USERNAME=lisi o.s.w.s.m.m.a.RequestMappingHandlerMapping Mapped to public java.lang.String com.lct.controller.TestController.test()
+2024-01-31 18:25:32,030 [http-nio-9888-exec-1] DEBUG USERNAME=lisi com.lct.controller.TestController 测试MD
+2024-01-31 18:25:32,030 [http-nio-9888-exec-1] INFO USERNAME=lisi com.lct.controller.TestController 参数：port = 9888,
+2024-01-31 18:25:32,030 [http-nio-9888-exec-1] DEBUG USERNAME=lisi com.lct.controller.TestController Tomcat 线程
+2024-01-31 18:25:32,031 [http-nio-9888-exec-1] DEBUG USERNAME=lisi o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+2024-01-31 18:25:32,031 [http-nio-9888-exec-1] DEBUG USERNAME=lisi o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor Writing [APIResponse(success=true, data=Hello!  9888  zh, code=2000, message=OK)]
+2024-01-31 18:25:32,031 [http-nio-9888-exec-1] DEBUG USERNAME=lisi o.s.web.servlet.DispatcherServlet Failed to complete request: java.lang.ClassCastException: com.lct.bean.APIResponse cannot be cast to java.lang.String
+2024-01-31 18:25:32,032 [http-nio-9888-exec-1] ERROR USERNAME=lisi o.a.c.c.C.[.[.[.[dispatcherServlet] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.ClassCastException: com.lct.bean.APIResponse cannot be cast to java.lang.String] with root cause
+java.lang.ClassCastException: com.lct.bean.APIResponse cannot be cast to java.lang.String
+	at org.springframework.http.converter.StringHttpMessageConverter.getContentLength(StringHttpMessageConverter.java:44)
+	at org.springframework.http.converter.AbstractHttpMessageConverter.addDefaultHeaders(AbstractHttpMessageConverter.java:260)
+	at org.springframework.http.converter.AbstractHttpMessageConverter.write(AbstractHttpMessageConverter.java:211)
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:293)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:180)
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:82)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:122)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.lct.filter.LogbackFilter.doFilter(LogbackFilter.java:33)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at com.lct.filter.SomeFilter.doFilter(SomeFilter.java:13)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:114)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:104)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2024-01-31 18:25:32,032 [http-nio-9888-exec-1] DEBUG USERNAME=lisi o.s.web.servlet.DispatcherServlet "ERROR" dispatch for GET "/error", parameters={}
+2024-01-31 18:25:32,032 [http-nio-9888-exec-1] DEBUG USERNAME=lisi o.s.w.s.m.m.a.RequestMappingHandlerMapping Mapped to public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2024-01-31 18:25:32,033 [http-nio-9888-exec-1] DEBUG USERNAME=lisi o.s.w.s.m.m.a.HttpEntityMethodProcessor Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-01-31 18:25:32,033 [http-nio-9888-exec-1] DEBUG USERNAME=lisi o.s.w.s.m.m.a.HttpEntityMethodProcessor Writing [APIResponse(success=true, data={timestamp=Wed Jan 31 18:25:32 CST 2024, status=500, error=Internal S (truncated)...]
+2024-01-31 18:25:32,034 [http-nio-9888-exec-1] DEBUG USERNAME=lisi o.s.web.servlet.DispatcherServlet Exiting from "ERROR" dispatch, status 500
+2024-02-01 10:42:37,461 [http-nio-9888-exec-6] INFO USERNAME=lisi com.lct.controller.TestController 参数：port = 9888,
+2024-02-01 10:42:38,771 [http-nio-9888-exec-9] INFO USERNAME=lisi com.lct.controller.TestController 参数：port = 9888,
+2024-02-01 10:42:39,044 [http-nio-9888-exec-10] INFO USERNAME=lisi com.lct.controller.TestController 参数：port = 9888,
+2024-02-01 10:42:39,230 [http-nio-9888-exec-2] INFO USERNAME=lisi com.lct.controller.TestController 参数：port = 9888,
+2024-02-01 10:42:39,430 [http-nio-9888-exec-3] INFO USERNAME=lisi com.lct.controller.TestController 参数：port = 9888,
+2024-02-01 10:42:39,635 [http-nio-9888-exec-4] INFO USERNAME=lisi com.lct.controller.TestController 参数：port = 9888,
+2024-02-01 10:42:39,775 [http-nio-9888-exec-5] INFO USERNAME=lisi com.lct.controller.TestController 参数：port = 9888,
+2024-02-01 10:43:37,786 [http-nio-9888-exec-1] INFO USERNAME=lisi com.lct.controller.TestController 参数：port = 9888,
+2024-02-01 10:43:39,176 [http-nio-9888-exec-3] INFO USERNAME=lisi com.lct.controller.TestController 参数：port = 9888,
+2024-02-01 10:43:39,550 [http-nio-9888-exec-5] INFO USERNAME=lisi com.lct.controller.TestController 参数：port = 9888,
+2024-02-01 10:43:39,800 [http-nio-9888-exec-7] INFO USERNAME=lisi com.lct.controller.TestController 参数：port = 9888,
+2024-02-01 10:54:12,140 [http-nio-9888-exec-1] TRACE USERNAME=lisi o.s.web.servlet.DispatcherServlet GET "/test", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2024-02-01 10:54:12,146 [http-nio-9888-exec-1] TRACE USERNAME=lisi o.s.b.f.s.DefaultListableBeanFactory Returning cached instance of singleton bean 'testController'
+2024-02-01 10:54:12,147 [http-nio-9888-exec-1] TRACE USERNAME=lisi o.s.w.s.m.m.a.RequestMappingHandlerMapping Mapped to public java.lang.String com.lct.controller.TestController.test()
+2024-02-01 10:54:12,159 [http-nio-9888-exec-1] TRACE USERNAME=lisi o.s.w.s.m.m.a.ServletInvocableHandlerMethod Arguments: []
+2024-02-01 10:54:12,160 [http-nio-9888-exec-1] DEBUG USERNAME=lisi com.lct.controller.TestController 测试MD
+2024-02-01 10:54:12,160 [http-nio-9888-exec-1] INFO USERNAME=lisi com.lct.controller.TestController 参数：port = 9888,
+2024-02-01 10:54:12,162 [http-nio-9888-exec-1] DEBUG USERNAME=lisi com.lct.controller.TestController Tomcat 线程
+2024-02-01 10:54:12,180 [http-nio-9888-exec-1] DEBUG USERNAME=lisi o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+2024-02-01 10:54:12,180 [http-nio-9888-exec-1] TRACE USERNAME=lisi o.s.b.f.s.DefaultListableBeanFactory Returning cached instance of singleton bean 'APIResponseAdvice'
+2024-02-01 10:54:12,181 [http-nio-9888-exec-1] TRACE USERNAME=lisi o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor Writing ["Hello!  9888  zh"]
+2024-02-01 10:54:12,206 [http-nio-9888-exec-1] TRACE USERNAME=lisi o.s.web.servlet.DispatcherServlet No view rendering, null ModelAndView returned.
+2024-02-01 10:54:12,206 [http-nio-9888-exec-1] DEBUG USERNAME=lisi o.s.web.servlet.DispatcherServlet Completed 200 OK, headers={masked}
+2024-02-01 10:54:12,209 [http-nio-9888-exec-1] TRACE USERNAME=lisi o.s.b.f.s.DefaultListableBeanFactory Returning cached instance of singleton bean 'springApplicationAdminRegistrar'
+2024-02-01 10:54:12,376 [http-nio-9888-exec-2] TRACE USERNAME=lisi o.s.web.servlet.DispatcherServlet GET "/test", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2024-02-01 10:54:12,377 [http-nio-9888-exec-2] TRACE USERNAME=lisi o.s.b.f.s.DefaultListableBeanFactory Returning cached instance of singleton bean 'testController'
+2024-02-01 10:54:12,378 [http-nio-9888-exec-2] TRACE USERNAME=lisi o.s.w.s.m.m.a.RequestMappingHandlerMapping Mapped to public java.lang.String com.lct.controller.TestController.test()
+2024-02-01 10:54:12,378 [http-nio-9888-exec-2] TRACE USERNAME=lisi o.s.w.s.m.m.a.ServletInvocableHandlerMethod Arguments: []
+2024-02-01 10:54:12,378 [http-nio-9888-exec-2] DEBUG USERNAME=lisi com.lct.controller.TestController 测试MD
+2024-02-01 10:54:12,378 [http-nio-9888-exec-2] INFO USERNAME=lisi com.lct.controller.TestController 参数：port = 9888,
+2024-02-01 10:54:12,378 [http-nio-9888-exec-2] DEBUG USERNAME=lisi com.lct.controller.TestController Tomcat 线程
+2024-02-01 10:54:12,379 [http-nio-9888-exec-2] DEBUG USERNAME=lisi o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+2024-02-01 10:54:12,379 [http-nio-9888-exec-2] TRACE USERNAME=lisi o.s.b.f.s.DefaultListableBeanFactory Returning cached instance of singleton bean 'APIResponseAdvice'
+2024-02-01 10:54:12,379 [http-nio-9888-exec-2] TRACE USERNAME=lisi o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor Writing ["Hello!  9888  zh"]
+2024-02-01 10:54:12,380 [http-nio-9888-exec-2] TRACE USERNAME=lisi o.s.web.servlet.DispatcherServlet No view rendering, null ModelAndView returned.
+2024-02-01 10:54:12,380 [http-nio-9888-exec-2] DEBUG USERNAME=lisi o.s.web.servlet.DispatcherServlet Completed 200 OK, headers={masked}
+2024-02-01 10:54:12,486 [http-nio-9888-exec-3] TRACE USERNAME=lisi o.s.web.servlet.DispatcherServlet GET "/test", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2024-02-01 10:54:12,487 [http-nio-9888-exec-3] TRACE USERNAME=lisi o.s.b.f.s.DefaultListableBeanFactory Returning cached instance of singleton bean 'testController'
+2024-02-01 10:54:12,487 [http-nio-9888-exec-3] TRACE USERNAME=lisi o.s.w.s.m.m.a.RequestMappingHandlerMapping Mapped to public java.lang.String com.lct.controller.TestController.test()
+2024-02-01 10:54:12,487 [http-nio-9888-exec-3] TRACE USERNAME=lisi o.s.w.s.m.m.a.ServletInvocableHandlerMethod Arguments: []
+2024-02-01 10:54:12,487 [http-nio-9888-exec-3] DEBUG USERNAME=lisi com.lct.controller.TestController 测试MD
+2024-02-01 10:54:12,487 [http-nio-9888-exec-3] INFO USERNAME=lisi com.lct.controller.TestController 参数：port = 9888,
+2024-02-01 10:54:12,487 [http-nio-9888-exec-3] DEBUG USERNAME=lisi com.lct.controller.TestController Tomcat 线程
+2024-02-01 10:54:12,487 [http-nio-9888-exec-3] DEBUG USERNAME=lisi o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+2024-02-01 10:54:12,487 [http-nio-9888-exec-3] TRACE USERNAME=lisi o.s.b.f.s.DefaultListableBeanFactory Returning cached instance of singleton bean 'APIResponseAdvice'
+2024-02-01 10:54:12,487 [http-nio-9888-exec-3] TRACE USERNAME=lisi o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor Writing ["Hello!  9888  zh"]
+2024-02-01 10:54:12,488 [http-nio-9888-exec-3] TRACE USERNAME=lisi o.s.web.servlet.DispatcherServlet No view rendering, null ModelAndView returned.
+2024-02-01 10:54:12,488 [http-nio-9888-exec-3] DEBUG USERNAME=lisi o.s.web.servlet.DispatcherServlet Completed 200 OK, headers={masked}
+2024-02-01 10:54:12,644 [http-nio-9888-exec-4] TRACE USERNAME=lisi o.s.web.servlet.DispatcherServlet GET "/test", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2024-02-01 10:54:12,644 [http-nio-9888-exec-4] TRACE USERNAME=lisi o.s.b.f.s.DefaultListableBeanFactory Returning cached instance of singleton bean 'testController'
+2024-02-01 10:54:12,644 [http-nio-9888-exec-4] TRACE USERNAME=lisi o.s.w.s.m.m.a.RequestMappingHandlerMapping Mapped to public java.lang.String com.lct.controller.TestController.test()
+2024-02-01 10:54:12,644 [http-nio-9888-exec-4] TRACE USERNAME=lisi o.s.w.s.m.m.a.ServletInvocableHandlerMethod Arguments: []
+2024-02-01 10:54:12,644 [http-nio-9888-exec-4] DEBUG USERNAME=lisi com.lct.controller.TestController 测试MD
+2024-02-01 10:54:12,644 [http-nio-9888-exec-4] INFO USERNAME=lisi com.lct.controller.TestController 参数：port = 9888,
+2024-02-01 10:54:12,644 [http-nio-9888-exec-4] DEBUG USERNAME=lisi com.lct.controller.TestController Tomcat 线程
+2024-02-01 10:54:12,645 [http-nio-9888-exec-4] DEBUG USERNAME=lisi o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+2024-02-01 10:54:12,645 [http-nio-9888-exec-4] TRACE USERNAME=lisi o.s.b.f.s.DefaultListableBeanFactory Returning cached instance of singleton bean 'APIResponseAdvice'
+2024-02-01 10:54:12,645 [http-nio-9888-exec-4] TRACE USERNAME=lisi o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor Writing ["Hello!  9888  zh"]
+2024-02-01 10:54:12,645 [http-nio-9888-exec-4] TRACE USERNAME=lisi o.s.web.servlet.DispatcherServlet No view rendering, null ModelAndView returned.
+2024-02-01 10:54:12,646 [http-nio-9888-exec-4] DEBUG USERNAME=lisi o.s.web.servlet.DispatcherServlet Completed 200 OK, headers={masked}
+2024-02-01 10:54:12,808 [http-nio-9888-exec-8] TRACE USERNAME=lisi o.s.web.servlet.DispatcherServlet GET "/test", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2024-02-01 10:54:12,808 [http-nio-9888-exec-8] TRACE USERNAME=lisi o.s.b.f.s.DefaultListableBeanFactory Returning cached instance of singleton bean 'testController'
+2024-02-01 10:54:12,808 [http-nio-9888-exec-8] TRACE USERNAME=lisi o.s.w.s.m.m.a.RequestMappingHandlerMapping Mapped to public java.lang.String com.lct.controller.TestController.test()
+2024-02-01 10:54:12,809 [http-nio-9888-exec-8] TRACE USERNAME=lisi o.s.w.s.m.m.a.ServletInvocableHandlerMethod Arguments: []
+2024-02-01 10:54:12,809 [http-nio-9888-exec-8] DEBUG USERNAME=lisi com.lct.controller.TestController 测试MD
+2024-02-01 10:54:12,809 [http-nio-9888-exec-8] INFO USERNAME=lisi com.lct.controller.TestController 参数：port = 9888,
+2024-02-01 10:54:12,809 [http-nio-9888-exec-8] DEBUG USERNAME=lisi com.lct.controller.TestController Tomcat 线程
+2024-02-01 10:54:12,811 [http-nio-9888-exec-8] DEBUG USERNAME=lisi o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+2024-02-01 10:54:12,812 [http-nio-9888-exec-8] TRACE USERNAME=lisi o.s.b.f.s.DefaultListableBeanFactory Returning cached instance of singleton bean 'APIResponseAdvice'
+2024-02-01 10:54:12,812 [http-nio-9888-exec-8] TRACE USERNAME=lisi o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor Writing ["Hello!  9888  zh"]
+2024-02-01 10:54:12,813 [http-nio-9888-exec-8] TRACE USERNAME=lisi o.s.web.servlet.DispatcherServlet No view rendering, null ModelAndView returned.
+2024-02-01 10:54:12,813 [http-nio-9888-exec-8] DEBUG USERNAME=lisi o.s.web.servlet.DispatcherServlet Completed 200 OK, headers={masked}
+2024-02-01 10:54:13,013 [http-nio-9888-exec-9] TRACE USERNAME=lisi o.s.web.servlet.DispatcherServlet GET "/test", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2024-02-01 10:54:13,014 [http-nio-9888-exec-9] TRACE USERNAME=lisi o.s.b.f.s.DefaultListableBeanFactory Returning cached instance of singleton bean 'testController'
+2024-02-01 10:54:13,014 [http-nio-9888-exec-9] TRACE USERNAME=lisi o.s.w.s.m.m.a.RequestMappingHandlerMapping Mapped to public java.lang.String com.lct.controller.TestController.test()
+2024-02-01 10:54:13,014 [http-nio-9888-exec-9] TRACE USERNAME=lisi o.s.w.s.m.m.a.ServletInvocableHandlerMethod Arguments: []
+2024-02-01 10:54:13,014 [http-nio-9888-exec-9] DEBUG USERNAME=lisi com.lct.controller.TestController 测试MD
+2024-02-01 10:54:13,014 [http-nio-9888-exec-9] INFO USERNAME=lisi com.lct.controller.TestController 参数：port = 9888,
+2024-02-01 10:54:13,014 [http-nio-9888-exec-9] DEBUG USERNAME=lisi com.lct.controller.TestController Tomcat 线程
+2024-02-01 10:54:13,015 [http-nio-9888-exec-9] DEBUG USERNAME=lisi o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+2024-02-01 10:54:13,015 [http-nio-9888-exec-9] TRACE USERNAME=lisi o.s.b.f.s.DefaultListableBeanFactory Returning cached instance of singleton bean 'APIResponseAdvice'
+2024-02-01 10:54:13,015 [http-nio-9888-exec-9] TRACE USERNAME=lisi o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor Writing ["Hello!  9888  zh"]
+2024-02-01 10:54:13,016 [http-nio-9888-exec-9] TRACE USERNAME=lisi o.s.web.servlet.DispatcherServlet No view rendering, null ModelAndView returned.
+2024-02-01 10:54:13,016 [http-nio-9888-exec-9] DEBUG USERNAME=lisi o.s.web.servlet.DispatcherServlet Completed 200 OK, headers={masked}
+2024-02-01 10:54:13,193 [http-nio-9888-exec-10] TRACE USERNAME=lisi o.s.web.servlet.DispatcherServlet GET "/test", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2024-02-01 10:54:13,193 [http-nio-9888-exec-10] TRACE USERNAME=lisi o.s.b.f.s.DefaultListableBeanFactory Returning cached instance of singleton bean 'testController'
+2024-02-01 10:54:13,193 [http-nio-9888-exec-10] TRACE USERNAME=lisi o.s.w.s.m.m.a.RequestMappingHandlerMapping Mapped to public java.lang.String com.lct.controller.TestController.test()
+2024-02-01 10:54:13,194 [http-nio-9888-exec-10] TRACE USERNAME=lisi o.s.w.s.m.m.a.ServletInvocableHandlerMethod Arguments: []
+2024-02-01 10:54:13,194 [http-nio-9888-exec-10] DEBUG USERNAME=lisi com.lct.controller.TestController 测试MD
+2024-02-01 10:54:13,194 [http-nio-9888-exec-10] INFO USERNAME=lisi com.lct.controller.TestController 参数：port = 9888,
+2024-02-01 10:54:13,194 [http-nio-9888-exec-10] DEBUG USERNAME=lisi com.lct.controller.TestController Tomcat 线程
+2024-02-01 10:54:13,194 [http-nio-9888-exec-10] DEBUG USERNAME=lisi o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+2024-02-01 10:54:13,195 [http-nio-9888-exec-10] TRACE USERNAME=lisi o.s.b.f.s.DefaultListableBeanFactory Returning cached instance of singleton bean 'APIResponseAdvice'
+2024-02-01 10:54:13,195 [http-nio-9888-exec-10] TRACE USERNAME=lisi o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor Writing ["Hello!  9888  zh"]
+2024-02-01 10:54:13,195 [http-nio-9888-exec-10] TRACE USERNAME=lisi o.s.web.servlet.DispatcherServlet No view rendering, null ModelAndView returned.
+2024-02-01 10:54:13,195 [http-nio-9888-exec-10] DEBUG USERNAME=lisi o.s.web.servlet.DispatcherServlet Completed 200 OK, headers={masked}
+2024-02-01 14:48:27,051 [http-nio-9888-exec-9] TRACE USERNAME=lisi o.s.web.servlet.DispatcherServlet GET "/test", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2024-02-01 14:48:27,054 [http-nio-9888-exec-9] TRACE USERNAME=lisi o.s.b.f.s.DefaultListableBeanFactory Returning cached instance of singleton bean 'testController'
+2024-02-01 14:48:27,054 [http-nio-9888-exec-9] TRACE USERNAME=lisi o.s.w.s.m.m.a.RequestMappingHandlerMapping Mapped to public java.lang.String com.lct.controller.TestController.test()
+2024-02-01 14:48:27,054 [http-nio-9888-exec-9] TRACE USERNAME=lisi o.s.w.s.m.m.a.ServletInvocableHandlerMethod Arguments: []
+2024-02-01 14:48:27,054 [http-nio-9888-exec-9] DEBUG USERNAME=lisi com.lct.controller.TestController 测试MD
+2024-02-01 14:48:27,054 [http-nio-9888-exec-9] INFO USERNAME=lisi com.lct.controller.TestController 参数：port = 9888,
+2024-02-01 14:48:27,054 [http-nio-9888-exec-9] DEBUG USERNAME=lisi com.lct.controller.TestController Tomcat 线程
+2024-02-01 14:48:27,055 [http-nio-9888-exec-9] DEBUG USERNAME=lisi o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+2024-02-01 14:48:27,056 [http-nio-9888-exec-9] TRACE USERNAME=lisi o.s.b.f.s.DefaultListableBeanFactory Returning cached instance of singleton bean 'APIResponseAdvice'
+2024-02-01 14:48:27,058 [http-nio-9888-exec-9] TRACE USERNAME=lisi o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor Writing ["Hello!  9888  zh"]
+2024-02-01 14:48:27,059 [http-nio-9888-exec-9] TRACE USERNAME=lisi o.s.web.servlet.DispatcherServlet No view rendering, null ModelAndView returned.
+2024-02-01 14:48:27,059 [http-nio-9888-exec-9] DEBUG USERNAME=lisi o.s.web.servlet.DispatcherServlet Completed 200 OK, headers={masked}
+2024-02-01 14:48:28,092 [http-nio-9888-exec-10] TRACE USERNAME=lisi o.s.web.servlet.DispatcherServlet GET "/test", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2024-02-01 14:48:28,093 [http-nio-9888-exec-10] TRACE USERNAME=lisi o.s.b.f.s.DefaultListableBeanFactory Returning cached instance of singleton bean 'testController'
+2024-02-01 14:48:28,093 [http-nio-9888-exec-10] TRACE USERNAME=lisi o.s.w.s.m.m.a.RequestMappingHandlerMapping Mapped to public java.lang.String com.lct.controller.TestController.test()
+2024-02-01 14:48:28,093 [http-nio-9888-exec-10] TRACE USERNAME=lisi o.s.w.s.m.m.a.ServletInvocableHandlerMethod Arguments: []
+2024-02-01 14:48:28,093 [http-nio-9888-exec-10] DEBUG USERNAME=lisi com.lct.controller.TestController 测试MD
+2024-02-01 14:48:28,093 [http-nio-9888-exec-10] INFO USERNAME=lisi com.lct.controller.TestController 参数：port = 9888,
+2024-02-01 14:48:28,094 [http-nio-9888-exec-10] DEBUG USERNAME=lisi com.lct.controller.TestController Tomcat 线程
+2024-02-01 14:48:28,094 [http-nio-9888-exec-10] DEBUG USERNAME=lisi o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+2024-02-01 14:48:28,094 [http-nio-9888-exec-10] TRACE USERNAME=lisi o.s.b.f.s.DefaultListableBeanFactory Returning cached instance of singleton bean 'APIResponseAdvice'
+2024-02-01 14:48:28,094 [http-nio-9888-exec-10] TRACE USERNAME=lisi o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor Writing ["Hello!  9888  zh"]
+2024-02-01 14:48:28,095 [http-nio-9888-exec-10] TRACE USERNAME=lisi o.s.web.servlet.DispatcherServlet No view rendering, null ModelAndView returned.
+2024-02-01 14:48:28,095 [http-nio-9888-exec-10] DEBUG USERNAME=lisi o.s.web.servlet.DispatcherServlet Completed 200 OK, headers={masked}
+2024-02-01 14:48:45,683 [http-nio-9888-exec-3] TRACE USERNAME=lisi o.s.web.servlet.DispatcherServlet GET "/test", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2024-02-01 14:48:45,685 [http-nio-9888-exec-3] TRACE USERNAME=lisi o.s.b.f.s.DefaultListableBeanFactory Returning cached instance of singleton bean 'testController'
+2024-02-01 14:48:45,685 [http-nio-9888-exec-3] TRACE USERNAME=lisi o.s.w.s.m.m.a.RequestMappingHandlerMapping Mapped to public java.lang.String com.lct.controller.TestController.test()
+2024-02-01 14:48:45,685 [http-nio-9888-exec-3] TRACE USERNAME=lisi o.s.w.s.m.m.a.ServletInvocableHandlerMethod Arguments: []
+2024-02-01 14:48:45,685 [http-nio-9888-exec-3] DEBUG USERNAME=lisi com.lct.controller.TestController 测试MD
+2024-02-01 14:48:45,685 [http-nio-9888-exec-3] INFO USERNAME=lisi com.lct.controller.TestController 参数：port = 9888,
+2024-02-01 14:48:45,685 [http-nio-9888-exec-3] DEBUG USERNAME=lisi com.lct.controller.TestController Tomcat 线程
+2024-02-01 14:48:45,686 [http-nio-9888-exec-3] DEBUG USERNAME=lisi o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+2024-02-01 14:48:45,686 [http-nio-9888-exec-3] TRACE USERNAME=lisi o.s.b.f.s.DefaultListableBeanFactory Returning cached instance of singleton bean 'APIResponseAdvice'
+2024-02-01 14:48:45,686 [http-nio-9888-exec-3] TRACE USERNAME=lisi o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor Writing ["Hello!  9888  zh"]
+2024-02-01 14:48:45,687 [http-nio-9888-exec-3] TRACE USERNAME=lisi o.s.web.servlet.DispatcherServlet No view rendering, null ModelAndView returned.
+2024-02-01 14:48:45,687 [http-nio-9888-exec-3] DEBUG USERNAME=lisi o.s.web.servlet.DispatcherServlet Completed 200 OK, headers={masked}
+2024-02-01 14:48:45,874 [http-nio-9888-exec-4] TRACE USERNAME=lisi o.s.web.servlet.DispatcherServlet GET "/test", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2024-02-01 14:48:45,875 [http-nio-9888-exec-4] TRACE USERNAME=lisi o.s.b.f.s.DefaultListableBeanFactory Returning cached instance of singleton bean 'testController'
+2024-02-01 14:48:45,875 [http-nio-9888-exec-4] TRACE USERNAME=lisi o.s.w.s.m.m.a.RequestMappingHandlerMapping Mapped to public java.lang.String com.lct.controller.TestController.test()
+2024-02-01 14:48:45,875 [http-nio-9888-exec-4] TRACE USERNAME=lisi o.s.w.s.m.m.a.ServletInvocableHandlerMethod Arguments: []
+2024-02-01 14:48:45,875 [http-nio-9888-exec-4] DEBUG USERNAME=lisi com.lct.controller.TestController 测试MD
+2024-02-01 14:48:45,875 [http-nio-9888-exec-4] INFO USERNAME=lisi com.lct.controller.TestController 参数：port = 9888,
+2024-02-01 14:48:45,875 [http-nio-9888-exec-4] DEBUG USERNAME=lisi com.lct.controller.TestController Tomcat 线程
+2024-02-01 14:48:45,876 [http-nio-9888-exec-4] DEBUG USERNAME=lisi o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+2024-02-01 14:48:45,876 [http-nio-9888-exec-4] TRACE USERNAME=lisi o.s.b.f.s.DefaultListableBeanFactory Returning cached instance of singleton bean 'APIResponseAdvice'
+2024-02-01 14:48:45,876 [http-nio-9888-exec-4] TRACE USERNAME=lisi o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor Writing ["Hello!  9888  zh"]
+2024-02-01 14:48:45,876 [http-nio-9888-exec-4] TRACE USERNAME=lisi o.s.web.servlet.DispatcherServlet No view rendering, null ModelAndView returned.
+2024-02-01 14:48:45,877 [http-nio-9888-exec-4] DEBUG USERNAME=lisi o.s.web.servlet.DispatcherServlet Completed 200 OK, headers={masked}
+2024-02-01 14:48:46,055 [http-nio-9888-exec-5] TRACE USERNAME=lisi o.s.web.servlet.DispatcherServlet GET "/test", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2024-02-01 14:48:46,056 [http-nio-9888-exec-5] TRACE USERNAME=lisi o.s.b.f.s.DefaultListableBeanFactory Returning cached instance of singleton bean 'testController'
+2024-02-01 14:48:46,056 [http-nio-9888-exec-5] TRACE USERNAME=lisi o.s.w.s.m.m.a.RequestMappingHandlerMapping Mapped to public java.lang.String com.lct.controller.TestController.test()
+2024-02-01 14:48:46,056 [http-nio-9888-exec-5] TRACE USERNAME=lisi o.s.w.s.m.m.a.ServletInvocableHandlerMethod Arguments: []
+2024-02-01 14:48:46,057 [http-nio-9888-exec-5] DEBUG USERNAME=lisi com.lct.controller.TestController 测试MD
+2024-02-01 14:48:46,057 [http-nio-9888-exec-5] INFO USERNAME=lisi com.lct.controller.TestController 参数：port = 9888,
+2024-02-01 14:48:46,057 [http-nio-9888-exec-5] DEBUG USERNAME=lisi com.lct.controller.TestController Tomcat 线程
+2024-02-01 14:48:46,058 [http-nio-9888-exec-5] DEBUG USERNAME=lisi o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+2024-02-01 14:48:46,058 [http-nio-9888-exec-5] TRACE USERNAME=lisi o.s.b.f.s.DefaultListableBeanFactory Returning cached instance of singleton bean 'APIResponseAdvice'
+2024-02-01 14:48:46,058 [http-nio-9888-exec-5] TRACE USERNAME=lisi o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor Writing ["Hello!  9888  zh"]
+2024-02-01 14:48:46,059 [http-nio-9888-exec-5] TRACE USERNAME=lisi o.s.web.servlet.DispatcherServlet No view rendering, null ModelAndView returned.
+2024-02-01 14:48:46,060 [http-nio-9888-exec-5] DEBUG USERNAME=lisi o.s.web.servlet.DispatcherServlet Completed 200 OK, headers={masked}
+2024-02-01 14:48:46,214 [http-nio-9888-exec-6] TRACE USERNAME=lisi o.s.web.servlet.DispatcherServlet GET "/test", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2024-02-01 14:48:46,214 [http-nio-9888-exec-6] TRACE USERNAME=lisi o.s.b.f.s.DefaultListableBeanFactory Returning cached instance of singleton bean 'testController'
+2024-02-01 14:48:46,214 [http-nio-9888-exec-6] TRACE USERNAME=lisi o.s.w.s.m.m.a.RequestMappingHandlerMapping Mapped to public java.lang.String com.lct.controller.TestController.test()
+2024-02-01 14:48:46,215 [http-nio-9888-exec-6] TRACE USERNAME=lisi o.s.w.s.m.m.a.ServletInvocableHandlerMethod Arguments: []
+2024-02-01 14:48:46,215 [http-nio-9888-exec-6] DEBUG USERNAME=lisi com.lct.controller.TestController 测试MD
+2024-02-01 14:48:46,215 [http-nio-9888-exec-6] INFO USERNAME=lisi com.lct.controller.TestController 参数：port = 9888,
+2024-02-01 14:48:46,215 [http-nio-9888-exec-6] DEBUG USERNAME=lisi com.lct.controller.TestController Tomcat 线程
+2024-02-01 14:48:46,216 [http-nio-9888-exec-6] DEBUG USERNAME=lisi o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+2024-02-01 14:48:46,216 [http-nio-9888-exec-6] TRACE USERNAME=lisi o.s.b.f.s.DefaultListableBeanFactory Returning cached instance of singleton bean 'APIResponseAdvice'
+2024-02-01 14:48:46,216 [http-nio-9888-exec-6] TRACE USERNAME=lisi o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor Writing ["Hello!  9888  zh"]
+2024-02-01 14:48:46,216 [http-nio-9888-exec-6] TRACE USERNAME=lisi o.s.web.servlet.DispatcherServlet No view rendering, null ModelAndView returned.
+2024-02-01 14:48:46,217 [http-nio-9888-exec-6] DEBUG USERNAME=lisi o.s.web.servlet.DispatcherServlet Completed 200 OK, headers={masked}
+2024-02-01 14:48:46,414 [http-nio-9888-exec-7] TRACE USERNAME=lisi o.s.web.servlet.DispatcherServlet GET "/test", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2024-02-01 14:48:46,414 [http-nio-9888-exec-7] TRACE USERNAME=lisi o.s.b.f.s.DefaultListableBeanFactory Returning cached instance of singleton bean 'testController'
+2024-02-01 14:48:46,414 [http-nio-9888-exec-7] TRACE USERNAME=lisi o.s.w.s.m.m.a.RequestMappingHandlerMapping Mapped to public java.lang.String com.lct.controller.TestController.test()
+2024-02-01 14:48:46,415 [http-nio-9888-exec-7] TRACE USERNAME=lisi o.s.w.s.m.m.a.ServletInvocableHandlerMethod Arguments: []
+2024-02-01 14:48:46,415 [http-nio-9888-exec-7] DEBUG USERNAME=lisi com.lct.controller.TestController 测试MD
+2024-02-01 14:48:46,415 [http-nio-9888-exec-7] INFO USERNAME=lisi com.lct.controller.TestController 参数：port = 9888,
+2024-02-01 14:48:46,415 [http-nio-9888-exec-7] DEBUG USERNAME=lisi com.lct.controller.TestController Tomcat 线程
+2024-02-01 14:48:46,415 [http-nio-9888-exec-7] DEBUG USERNAME=lisi o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+2024-02-01 14:48:46,415 [http-nio-9888-exec-7] TRACE USERNAME=lisi o.s.b.f.s.DefaultListableBeanFactory Returning cached instance of singleton bean 'APIResponseAdvice'
+2024-02-01 14:48:46,415 [http-nio-9888-exec-7] TRACE USERNAME=lisi o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor Writing ["Hello!  9888  zh"]
+2024-02-01 14:48:46,416 [http-nio-9888-exec-7] TRACE USERNAME=lisi o.s.web.servlet.DispatcherServlet No view rendering, null ModelAndView returned.
+2024-02-01 14:48:46,416 [http-nio-9888-exec-7] DEBUG USERNAME=lisi o.s.web.servlet.DispatcherServlet Completed 200 OK, headers={masked}
+2024-02-01 14:48:46,462 [http-nio-9888-exec-2] TRACE USERNAME=lisi o.s.web.servlet.DispatcherServlet GET "/test", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2024-02-01 14:48:46,463 [http-nio-9888-exec-2] TRACE USERNAME=lisi o.s.b.f.s.DefaultListableBeanFactory Returning cached instance of singleton bean 'testController'
+2024-02-01 14:48:46,463 [http-nio-9888-exec-2] TRACE USERNAME=lisi o.s.w.s.m.m.a.RequestMappingHandlerMapping Mapped to public java.lang.String com.lct.controller.TestController.test()
+2024-02-01 14:48:46,464 [http-nio-9888-exec-2] TRACE USERNAME=lisi o.s.w.s.m.m.a.ServletInvocableHandlerMethod Arguments: []
+2024-02-01 14:48:46,464 [http-nio-9888-exec-2] DEBUG USERNAME=lisi com.lct.controller.TestController 测试MD
+2024-02-01 14:48:46,464 [http-nio-9888-exec-2] INFO USERNAME=lisi com.lct.controller.TestController 参数：port = 9888,
+2024-02-01 14:48:46,464 [http-nio-9888-exec-2] DEBUG USERNAME=lisi com.lct.controller.TestController Tomcat 线程
+2024-02-01 14:48:46,466 [http-nio-9888-exec-2] DEBUG USERNAME=lisi o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+2024-02-01 14:48:46,466 [http-nio-9888-exec-2] TRACE USERNAME=lisi o.s.b.f.s.DefaultListableBeanFactory Returning cached instance of singleton bean 'APIResponseAdvice'
+2024-02-01 14:48:46,466 [http-nio-9888-exec-2] TRACE USERNAME=lisi o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor Writing ["Hello!  9888  zh"]
+2024-02-01 14:48:46,466 [http-nio-9888-exec-2] TRACE USERNAME=lisi o.s.web.servlet.DispatcherServlet No view rendering, null ModelAndView returned.
+2024-02-01 14:48:46,466 [http-nio-9888-exec-2] DEBUG USERNAME=lisi o.s.web.servlet.DispatcherServlet Completed 200 OK, headers={masked}
+2024-02-01 14:48:46,666 [http-nio-9888-exec-3] TRACE USERNAME=lisi o.s.web.servlet.DispatcherServlet GET "/test", parameters={}, headers={masked} in DispatcherServlet 'dispatcherServlet'
+2024-02-01 14:48:46,666 [http-nio-9888-exec-3] TRACE USERNAME=lisi o.s.b.f.s.DefaultListableBeanFactory Returning cached instance of singleton bean 'testController'
+2024-02-01 14:48:46,666 [http-nio-9888-exec-3] TRACE USERNAME=lisi o.s.w.s.m.m.a.RequestMappingHandlerMapping Mapped to public java.lang.String com.lct.controller.TestController.test()
+2024-02-01 14:48:46,666 [http-nio-9888-exec-3] TRACE USERNAME=lisi o.s.w.s.m.m.a.ServletInvocableHandlerMethod Arguments: []
+2024-02-01 14:48:46,666 [http-nio-9888-exec-3] DEBUG USERNAME=lisi com.lct.controller.TestController 测试MD
+2024-02-01 14:48:46,666 [http-nio-9888-exec-3] INFO USERNAME=lisi com.lct.controller.TestController 参数：port = 9888,
+2024-02-01 14:48:46,666 [http-nio-9888-exec-3] DEBUG USERNAME=lisi com.lct.controller.TestController Tomcat 线程
+2024-02-01 14:48:46,667 [http-nio-9888-exec-3] DEBUG USERNAME=lisi o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor Using 'text/plain', given [*/*] and supported [text/plain, */*, application/json, application/*+json]
+2024-02-01 14:48:46,667 [http-nio-9888-exec-3] TRACE USERNAME=lisi o.s.b.f.s.DefaultListableBeanFactory Returning cached instance of singleton bean 'APIResponseAdvice'
+2024-02-01 14:48:46,667 [http-nio-9888-exec-3] TRACE USERNAME=lisi o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor Writing ["Hello!  9888  zh"]
+2024-02-01 14:48:46,667 [http-nio-9888-exec-3] TRACE USERNAME=lisi o.s.web.servlet.DispatcherServlet No view rendering, null ModelAndView returned.
+2024-02-01 14:48:46,667 [http-nio-9888-exec-3] DEBUG USERNAME=lisi o.s.web.servlet.DispatcherServlet Completed 200 OK, headers={masked}

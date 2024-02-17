@@ -13,7 +13,6 @@
             <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
         </encoder>
     </appender>
-
     <!-- 第一个文件输出,每天产生一个文件 -->
 <!--    <appender name="FILE1" class="ch.qos.logback.core.rolling.RollingFileAppender">-->
 <!--        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">-->

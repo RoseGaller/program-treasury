@@ -1,0 +1,27 @@
+
+K
+java:S3740."/Provide the parametrized type for this generic.(«ï›J8èøÌŸÓ1
+K
+java:S3740."/Provide the parametrized type for this generic.(«ï›J8éøÌŸÓ1
+R
+java:S1191"5Use classes from the Java API instead of Sun classes.(Ìôéœ8ÄëËŸÓ1
+
+java:S1130+"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(ÊÌÙöùÿÿÿÿ8àëËŸÓ1
+q
+java:S3252,"OUse static access with "com.github.pagehelper.page.PageMethod" for "startPage".(ùÇ¶øÿÿÿÿ8ŞëËŸÓ1
+E
+java:S1481.")Remove this unused "page" local variable.(«ï›J8ÅÔÌŸÓ1
+ˆ
+java:S11304"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(ü´ƒf8ÿøÌŸÓ1
+S	java:S106="9Replace this use of System.out or System.err by a logger.(®ıáëûÿÿÿÿ
+U	java:S106>"9Replace this use of System.out or System.err by a logger.(—ÊÇ½8âëËŸÓ1
+|
+java:S1128"ZRemove this unused import 'com.baomidou.mybatisplus.core.MybatisSqlSessionFactoryBuilder'.(ä£Ûøÿÿÿÿ8‚ùÌŸÓ1
+K
+java:S1128".Remove this unused import 'sun.misc.Resource'.(Ìôéœ8‚ùÌŸÓ1
+S
+java:S1128"1Remove this unused import 'java.util.Collection'.(¹ÉĞšùÿÿÿÿ8ƒùÌŸÓ1
+Q
+java:S1128"/Remove this unused import 'java.util.Optional'.(¨˜ëİüÿÿÿÿ8ƒùÌŸÓ1
+M
+java:S5960/"+Remove this assertion from production code.(ª™Âìÿÿÿÿÿ8äëËŸÓ1

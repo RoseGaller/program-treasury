@@ -1,0 +1,9 @@
+
+Л
+java:S4165
+"pRemove this useless assignment; "applicationContext" already holds the assigned value along all execution paths.(иж╔Э∙    
+P
+java:S1118":Add a private constructor to hide the implicit public one.(│├дь
+J
+java:S1656
+"/Remove or correct this useless self-assignment.(иж╔Э∙    

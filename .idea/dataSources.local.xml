@@ -14,9 +14,16 @@
           <node kind="schema">
             <name qname="@" />
             <name qname="schema_name" />
+            <name qname="system_monitor" />
           </node>
         </introspection-scope>
       </schema-mapping>
+    </data-source>
+    <data-source name="swtest@123.207.77.132" uuid="b42764ef-d376-4eb9-bb24-ea25d371b174">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MYSQL" exact-version="0" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-mapping />
     </data-source>
   </component>
 </project>

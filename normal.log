@@ -1,0 +1,5 @@
+2024-01-18 15:10:50,425 [main] DEBUG  com.lct.HelloWorld -Hello world.
+2024-01-18 15:10:50,430 [main] DEBUG  com.lct.HelloWorld -tom:Hello world.
+2024-01-18 15:10:50,430 [main] INFO  com.lct.HelloWorld -tom:Hello world.
+2024-01-18 15:10:50,430 [main] ERROR  com.lct.HelloWorld -tom:Hello world.
+2024-01-18 15:10:50,430 [main] ERROR  com.lct.HelloWorld -welcome,Alice

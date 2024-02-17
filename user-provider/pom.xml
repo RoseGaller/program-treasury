@@ -77,7 +77,10 @@
             <artifactId>mybatis-plus-boot-starter</artifactId>
             <version>3.1.2</version>
         </dependency>
-
+        <dependency>
+            <groupId>org.springframework.retry</groupId>
+            <artifactId>spring-retry</artifactId>
+        </dependency>
 <!--        <dependency>-->
 <!--            <groupId>org.springframework.cloud</groupId>-->
 <!--            <artifactId>spring-cloud-starter-zookeeper-discovery</artifactId>-->
@@ -88,9 +91,26 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-    </dependencies>
-    <build>
+        <dependency>
+            <groupId>org.apache.skywalking</groupId>
+            <artifactId>apm-toolkit-trace</artifactId>
+            <version>9.1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.skywalking</groupId>
+            <artifactId>apm-toolkit-logback-1.x</artifactId>
+            <version>9.1.0</version>
+        </dependency>
 
+        <!-- 动态线程池       -->
+        <dependency>
+            <groupId>org.dromara.dynamictp</groupId>
+            <artifactId>dynamic-tp-spring-boot-starter-apollo</artifactId>
+            <version>1.1.6.1</version>
+        </dependency>
+    </dependencies>
+
+    <build>
         <plugins>
             <plugin>
                 <groupId>org.mybatis.generator</groupId>
@@ -111,6 +131,59 @@
                 </configuration>
             </plugin>
 
+            <plugin>
+                <!--https://maven.apache.org/enforcer/enforcer-rules/index.html-->
+                <!-- https://www.mojohaus.org/extra-enforcer-rules/ -->
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-enforcer-plugin</artifactId>
+                <version>3.4.1</version>
+                <dependencies>
+                    <dependency>
+                        <groupId>com.lct</groupId>
+                        <artifactId>custom_rule</artifactId>
+                        <version>1.0-SNAPSHOT</version>
+                    </dependency>
+                </dependencies>
+                <executions>
+                    <execution>
+                        <id>enforce-java</id>
+
+                        <phase>validate</phase>
+                        <configuration>
+                            <rules>
+                                <requireMavenVersion>
+                                    <version>3.5.0</version>
+                                </requireMavenVersion>
+                                <requireJavaVersion>
+                                    <version>13.0.1</version>
+                                </requireJavaVersion>
+                                <requireOS>
+                                    <family>mac</family>
+                                </requireOS>
+                                <!--grep -C 5 输出前后5行 -->
+                                <!-- mvn dependency:tree -->
+                                <!--  bannedDependencies 规则,该规则表示禁止使用某些依赖，或者某些依赖的版本-->
+<!--                                <bannedDependencies>-->
+<!--                                    <excludes>-->
+<!--                                        <exclude>org.slf4j:slf4j-api</exclude>-->
+<!--                                    </excludes>-->
+<!--                                    <includes>-->
+<!--                                        <include>org.slf4j:slf4j-api:1.8.0</include>-->
+<!--                                    </includes>-->
+<!--                                </bannedDependencies>-->
+                                <!-- 当项目中的 A 和 B 分别引用了不同版本的 C 时， Enforce 检查失败-->
+<!--                                <dependencyConvergence/>-->
+                                <!-- 检查多个 jar 包中是否存在同样命名的 class，如果存在编译便会报错 -->
+<!--                                <banDuplicateClasses/>-->
+<!--                                <myCustomRule/>-->
+                            </rules>
+                        </configuration>
+                        <goals>
+                            <goal>enforce</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
         </plugins>
     </build>
 

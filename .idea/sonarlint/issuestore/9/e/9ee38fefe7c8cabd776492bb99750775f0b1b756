@@ -1,0 +1,15 @@
+
+[	java:S112#"FDefine and throw a dedicated exception instead of using a generic one.(ä–äÃ
+b	java:S112A"FDefine and throw a dedicated exception instead of using a generic one.(›ƒˆ8ÚÁ­ËÖ1
+
+java:S1488H"dImmediately return this expression instead of assigning it to the temporary variable "hikariConfig".(ĞÄ¢8±ÏªËÖ1
+}
+java:S1488P"bImmediately return this expression instead of assigning it to the temporary variable "dataSource".(Ò”ÃÒüÿÿÿÿ
+©
+java:S44495"’Annotate the parameter with @javax.annotation.Nullable in method 'getResources' declaration, or make sure that null can not be passed as argument.(¡•«ê
+n
+java:S3305"XInject this field value directly into "sqlSessionFactory", the only method that uses it.(«ª“ø
+‚
+java:S1130#"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ä–äÃ
+‰
+java:S1130A"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(›ƒˆ8†Â­ËÖ1

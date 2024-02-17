@@ -1,11 +1,5 @@
 
 y
-java:S1488!"dImmediately return this expression instead of assigning it to the temporary variable "restTemplate".(— ’
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ğ˜’—şÿÿÿÿ8•Ç¹Î1
-V
-java:S1128"4Remove this unused import 'com.lct.rule.CustomRule'.(ï›§üÿÿÿÿ8´ÀÉ¹Î1
-X
-java:S1128";Remove this unused import 'com.netflix.loadbalancer.IRule'.(ºßİï8µÀÉ¹Î1
-t
-java:S1128
-"RRemove this unused import 'org.springframework.cloud.netflix.ribbon.RibbonClient'.(âèª…øÿÿÿÿ8µÀÉ¹Î1
+java:S1488%"dImmediately return this expression instead of assigning it to the temporary variable "restTemplate".(— ’
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ğ˜’—şÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(äüßí

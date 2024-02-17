@@ -12,6 +12,7 @@ public class WrapService {
         this.after = after;
     }
 
+
     public String wrap(String word){
         return before + word + after;
     }

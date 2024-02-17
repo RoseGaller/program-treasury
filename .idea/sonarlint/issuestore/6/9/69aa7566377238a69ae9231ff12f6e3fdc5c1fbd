@@ -1,14 +1,7 @@
 
 S
-java:S1481&"8Remove this unused "serviceInstanceList" local variable.(Òîá“şÿÿÿÿ
-Q	java:S125)"<This block of commented-out lines of code should be removed.(Æ‘÷Ğ
-f
-java:S1128"DRemove this unused import 'org.springframework.http.ResponseEntity'.(¶¯ø¦úÿÿÿÿ8¿óö¸Î1
-h
-java:S1128	"FRemove this unused import 'org.springframework.stereotype.Controller'.(øŠ—Öùÿÿÿÿ8âõ¾”Î1
-s
-java:S1128"QRemove this unused import 'org.springframework.web.bind.annotation.ResponseBody'.(•¶¶êøÿÿÿÿ8ãõ¾”Î1
-k
-java:S1128"NRemove this unused import 'org.springframework.web.util.UriComponentsBuilder'.(ßª»Ó8äõ¾”Î1
-F
-java:S1128")Remove this unused import 'java.net.URI'.(Ö¦¨°8äõ¾”Î1
+java:S1481!"8Remove this unused "serviceInstanceList" local variable.(Òîá“şÿÿÿÿ
+Q	java:S125$"<This block of commented-out lines of code should be removed.(Æ‘÷Ğ
+U
+java:S1481*"3Remove this unused "responseEntity" local variable.(ü¬Öÿÿÿÿÿ8Û¿­ÊÓ1
+X	java:S125+"<This block of commented-out lines of code should be removed.(ç ¨æ8Ü¿­ÊÓ1

@@ -1,0 +1,21 @@
+
+E
+java:S37409"/Provide the parametrized type for this generic.(‘º
+€
+java:S1488@"cImmediately return this expression instead of assigning it to the temporary variable "timedAspect".(›ºÎ¥8Ÿ„ûğÖ1
+W
+java:S1128"5Remove this unused import 'com.lct.utils.SpringUtil'.(¦Ù şÿÿÿÿ8¢£ŒñÖ1
+}
+java:S1128"[Remove this unused import 'org.springframework.boot.autoconfigure.EnableAutoConfiguration'.(æèşŞøÿÿÿÿ8££ŒñÖ1
+
+java:S1128"_Remove this unused import 'org.springframework.boot.autoconfigure.condition.ConditionalOnBean'.(ÇŞ¼Šıÿÿÿÿ8…¼´ñÖ1
+s
+java:S1128"WRemove this unused import 'org.springframework.context.ConfigurableApplicationContext'.(ÉšêC8££ŒñÖ1
+o
+java:S1128"MRemove this unused import 'org.springframework.retry.annotation.EnableRetry'.(Ÿœµ˜ûÿÿÿÿ8¤£ŒñÖ1
+h
+java:S1128"KRemove this unused import 'org.springframework.retry.annotation.Retryable'.( Âì¦8¤£ŒñÖ1
+h
+java:S1128"FRemove this unused import 'org.springframework.stereotype.Controller'.(øŠ—Öùÿÿÿÿ8¤£ŒñÖ1
+p
+java:S1128"SRemove this unused import 'org.springframework.web.bind.annotation.RequestMapping'.(ö»¿ë8¥£ŒñÖ1

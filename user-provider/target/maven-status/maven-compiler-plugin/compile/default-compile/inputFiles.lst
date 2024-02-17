@@ -1,0 +1,13 @@
+/Users/chengtaoli/tools/lagou-spring-cloud/ch-5/springcloud-study/user-provider/src/main/java/com/lct/study/config/MyBatisConfig.java
+/Users/chengtaoli/tools/lagou-spring-cloud/ch-5/springcloud-study/user-provider/src/main/java/com/lct/study/service/UserService.java
+/Users/chengtaoli/tools/lagou-spring-cloud/ch-5/springcloud-study/user-provider/src/main/java/com/lct/study/dao/UserMapper.java
+/Users/chengtaoli/tools/lagou-spring-cloud/ch-5/springcloud-study/user-provider/src/main/java/com/lct/study/bean/User.java
+/Users/chengtaoli/tools/lagou-spring-cloud/ch-5/springcloud-study/user-provider/src/main/java/com/lct/study/health/CustomHealthIndicator.java
+/Users/chengtaoli/tools/lagou-spring-cloud/ch-5/springcloud-study/user-provider/src/main/java/com/lct/study/config/HealthAspect.java
+/Users/chengtaoli/tools/lagou-spring-cloud/ch-5/springcloud-study/user-provider/src/main/java/com/lct/study/processor/ToStringProcessor.java
+/Users/chengtaoli/tools/lagou-spring-cloud/ch-5/springcloud-study/user-provider/src/main/java/com/lct/study/UserApplication.java
+/Users/chengtaoli/tools/lagou-spring-cloud/ch-5/springcloud-study/user-provider/src/main/java/com/lct/study/controller/UserController.java
+/Users/chengtaoli/tools/lagou-spring-cloud/ch-5/springcloud-study/user-provider/src/main/java/com/lct/study/service/impl/UserServiceImpl.java
+/Users/chengtaoli/tools/lagou-spring-cloud/ch-5/springcloud-study/user-provider/src/main/java/com/lct/study/health/HealthUtil.java
+/Users/chengtaoli/tools/lagou-spring-cloud/ch-5/springcloud-study/user-provider/src/main/java/com/lct/study/processor/ToString.java
+/Users/chengtaoli/tools/lagou-spring-cloud/ch-5/springcloud-study/user-provider/src/main/java/com/lct/study/health/HealthInfo.java

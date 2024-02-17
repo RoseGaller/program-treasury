@@ -1,0 +1,14 @@
+
+0
+java:S1220""Move this file to a named package.
+[
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(£ξΊ
+E
+java:S1197"*Move the array designators [] to the type.(Θη«ϊÿÿÿÿ
+E
+java:S1197"*Move the array designators [] to the type.(Θη«ϊÿÿÿÿ
+?
+java:S1197)"*Move the array designators [] to the type.(‚™1
+N	java:S106."9Replace this use of System.out or System.err by a logger.(―†
+S	java:S106/"9Replace this use of System.out or System.err by a logger.(™ξύ§ϋÿÿÿÿ
+S	java:S1060"9Replace this use of System.out or System.err by a logger.(ÿυ¥‹ϋÿÿÿÿ

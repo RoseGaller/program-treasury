@@ -1,0 +1,39 @@
+{
+  "groups": [
+    {
+      "name": "log.diagnose",
+      "type": "com.lct.filter.LogDiagnose",
+      "sourceType": "com.lct.filter.LogDiagnose"
+    },
+    {
+      "name": "some",
+      "type": "com.lct.bean.Some",
+      "sourceType": "com.lct.bean.Some"
+    }
+  ],
+  "properties": [
+    {
+      "name": "log.diagnose.enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.lct.filter.LogDiagnose",
+      "defaultValue": false
+    },
+    {
+      "name": "log.diagnose.users",
+      "type": "java.lang.String",
+      "sourceType": "com.lct.filter.LogDiagnose"
+    },
+    {
+      "name": "some.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.lct.bean.Some",
+      "defaultValue": 0
+    },
+    {
+      "name": "some.name",
+      "type": "java.lang.String",
+      "sourceType": "com.lct.bean.Some"
+    }
+  ],
+  "hints": []
+}

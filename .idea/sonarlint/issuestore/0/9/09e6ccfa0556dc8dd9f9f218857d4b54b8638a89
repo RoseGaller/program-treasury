@@ -1,0 +1,17 @@
+
+J
+java:S3740"/Provide the parametrized type for this generic.(Æœ›Æüÿÿÿÿ
+J
+java:S3740"/Provide the parametrized type for this generic.(Æœ›Æüÿÿÿÿ
+o
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(–€Ÿ•
+Q	java:S125""<This block of commented-out lines of code should be removed.(à·­
+`
+java:S1128"JRemove this unused import 'org.springframework.context.annotation.Import'.(žˆÈè
+w
+java:S1128	"aRemove this unused import 'org.springframework.data.redis.connection.RedisSentinelConfiguration'.(Û‘È™
+}
+java:S1128
+"gRemove this unused import 'org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory'.(ôÙžƒ
+k
+java:S1128"PRemove this unused import 'org.springframework.data.redis.core.RedisOperations'.(²Ÿ‹»ûÿÿÿÿ

@@ -3,15 +3,14 @@ package com.lct.study.controller;
 import com.lct.study.bean.User;
 import com.lct.study.service.UserService;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.skywalking.apm.toolkit.trace.ActiveSpan;
+import org.apache.skywalking.apm.toolkit.trace.TraceContext;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 
-@Controller
+@RestController
 @RequestMapping("/user")
 @Slf4j
 public class UserController {
@@ -30,15 +29,17 @@ public class UserController {
     @Autowired
    private UserService userService;
 
-   @GetMapping("/get/{id}")
-   @ResponseBody
+   @RequestMapping("/get/{id}")
    public User getById(@PathVariable("id") String id) throws Exception {
-       log.debug("8884");
+       log.debug("traceId:{}",TraceContext.traceId());
        return userService.getById(id);
    }
 
-   @GetMapping("/insert")
+   @RequestMapping("/err")
    public void  insert() throws Exception {
-       userService.insert();
+       log.debug("traceId:{}",TraceContext.traceId());
+       ActiveSpan.tag("error-trace activation","error");
+       ActiveSpan.error();
+       throw new RuntimeException("err");
     }
 }

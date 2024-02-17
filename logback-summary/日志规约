@@ -1,0 +1,11 @@
+1.应用中不可直接使用日志系统（Log4j、Logback）中的 API，而应依赖使用日志框架（SLF4J、JCL--Jakarta Commons Logging）中的 API，使用门面模式的日志框架，有利于维护和各个类的日志处理方式统一。
+2.所有日志文件至少保存 15 天，因为有些异常具备以“周”为频次发生的特点。对于当天日志，以“应用名.log”来保存，保存在/home/admin/应用名/logs/</font>目录下，过往日志格式为: {logname}.log.{保存日期}，日期格式：yyyy-MM-dd
+3.日志打印时禁止直接用 JSON 工具将对象转换成 String.打印日志时仅打印出业务相关属性值或者调用其对象的 toString()方法
+4.异常信息应该包括两类信息：案发现场信息和异常堆栈信息。如果不处理，那么通过关键字 throws 往上抛出
+    logger.error(各类参数或者对象 toString() + "_" + e.getMessage(), e);
+5.生产环境禁止直接使用 System.out 或 System.err 输出日志或使用e.printStackTrace()打印异常堆栈
+6.避免重复打印日志，浪费磁盘空间，务必在 log4j.xml 中设置 additivity=false
+    <logger name="com.taobao.dubbo.config" additivity="false">
+7.对于 trace/debug/info 级别的日志输出，必须进行日志级别的开关判断
+8.在日志输出时，字符串变量之间的拼接使用占位符的方式
+9.推荐对日志进行分类，如将错误日志和业务日志分开存放，便于开发人员查看，也便于通过日志对系统进行及时监控

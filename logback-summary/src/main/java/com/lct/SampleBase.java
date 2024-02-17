@@ -7,6 +7,7 @@ import org.slf4j.LoggerFactory;
 public class SampleBase {
 
     public void printInternalState(){
+        // 打印内部状态
         LoggerContext lc = (LoggerContext) LoggerFactory.getILoggerFactory();
         StatusPrinter.print(lc);
     }

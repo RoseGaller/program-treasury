@@ -1,0 +1,27 @@
+
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€›é
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«™‚ª
+E
+java:S5411$"*Use the primitive boolean expression here.(×¼ìøÿÿÿÿ
+?
+java:S5411A"*Use the primitive boolean expression here.(Û¸½3
+E
+java:S5411\"*Use the primitive boolean expression here.(Ü§ÁÇıÿÿÿÿ
+@
+java:S5411v"*Use the primitive boolean expression here.(îŸ—ü
+0
+java:S1220""Move this file to a named package.
+a	java:S116"LRename this field "T" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”ş«Ğ
+E
+java:S1197"*Move the array designators [] to the type.(¯ıãøÿÿÿÿ
+@
+java:S1197"*Move the array designators [] to the type.(²‰×ß
+a	java:S116"LRename this field "M" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıæ©Î
+S	java:S106t"9Replace this use of System.out or System.err by a logger.(Äúıÿÿÿÿ
+S	java:S106y"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+O	java:S106ƒ"9Replace this use of System.out or System.err by a logger.(âÑòñ
+A
+java:S1197Œ"*Move the array designators [] to the type.(ÏÙË
+T	java:S106"9Replace this use of System.out or System.err by a logger.(’Úıéùÿÿÿÿ
+T	java:S106‘"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+O	java:S106’"9Replace this use of System.out or System.err by a logger.(ã€‡’

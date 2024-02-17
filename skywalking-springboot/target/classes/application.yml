@@ -1,0 +1,24 @@
+server:
+  port: 8083
+spring:
+  datasource:
+    druid:
+      type: com.alibaba.druid.pool.DruidDataSource
+      url: jdbc:mysql://127.0.0.1:3306/xc_user
+      username: root
+      password: root
+      driver-class-name: com.mysql.jdbc.Driver
+      minIdle: 5
+      maxActive: 20
+      initialSize: 1
+
+      timeBetweenEvictionRunsMillis: 3000
+      minEvictableIdleTimeMillis: 300000
+      validationQuery: SELECT 'ZTM' FROM DUAL
+      testWhileIdle: true
+      testOnBorrow: false
+      testOnReturn: false
+      maxWait: 60000
+mybatis:
+  typeAliasesPackage: com.lct.bean
+  mapperLocations: classpath:mapper/*.xml
