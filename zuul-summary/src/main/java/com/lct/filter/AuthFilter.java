@@ -31,13 +31,13 @@ import javax.servlet.http.HttpServletRequest;
 
     @Override
     public Object run() throws ZuulException {
-        Logger logger =  (Logger)LoggerFactory.getLogger(AuthFilter.class);
+        Logger logger =  (Logger) LoggerFactory.getLogger(AuthFilter.class);
         logger.setLevel(Level.INFO);
         RequestContext requestContext =  RequestContext.getCurrentContext();
         HttpServletRequest httpServletRequest =  requestContext.getRequest();
         String token =  httpServletRequest.getHeader("token");
-        if(StringUtils.isBlank(token)){
-            throw  new ZuulException("非法请求",333,"token为空");
+        if (StringUtils.isBlank(token)) {
+            throw  new ZuulException("非法请求", 333, "token为空");
 //            requestContext.setSendZuulResponse(false);
 //            requestContext.set("isSuccess", false);
 //            requestContext.setResponseBody("非法请求【缺少token】");

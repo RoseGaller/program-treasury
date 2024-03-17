@@ -6,6 +6,12 @@ server:
     max-connections: 10000
     max-threads: 200
     min-spare-threads: 10
+
+  servlet:
+    multipart:
+      max-file-size: 500Mb # Max file size，默认1M
+      max-request-size: 1000Mb # Max request size，默认10M
+
 spring:
   application:
     name: zuul
@@ -31,14 +37,21 @@ zuul:
   host:
     connect-timeout-millis: 2000
     socket-timeout-millis: 2000
-    max-per-route-connections: 20 #每个路由的连接数
-    max-total-connections: 200 #总连接数
+    max-per-route-connections: 20 # 每个路由的连接数
+    max-total-connections: 200 # 总连接数
   semaphore:
-    max-semaphores: 1000 #默认使用的模式，默认为最大并发为100
-  retryable: true #开启对重试的支持
+    max-semaphores: 1000 # 默认使用的模式，默认为最大并发为100
+  retryable: true # 开启对重试的支持, 使用重试机制需要将 spring-retry 加入到 Maven 的依赖中
   routes:
     user:
       path: /user/**
       serviceId: user-provider
-#      url: http://127.0.0.1:8883  #直接指定服务地址
-      strip-prefix: false #如果不配置为false，会把前缀去掉
+#      url: http://127.0.0.1:8883  # 直接指定服务地址
+      strip-prefix: false # 如果不配置为false，会把前缀去掉
+  #开启这个 Debug 模式。然后在访问请求的时候，在后面追加一个 debug=true 的参数告诉 Zuul 当前请求的调试信息需要通过响应头进行输出，这样在这个请求的响应头中就有了 Debug 相关的信息。
+  include-debug-header: true
+#对于小文件（1M以内上传），无须任何处理，即可正常上传
+#对于大文件（10M以上）上传，需要为上传路径添加/zuul前缀。也可使用zuul.servlet-path自定义前缀
+#假设zuul.routes.microservice-file-upload=/microservice-file-upload/**
+#如果http://{HOST}:{PORT}/upload是微服务microservice-file-upload的上传路径，
+#则可使用Zuul的/zuul/microservice-file-upload/upload路径上传大文件

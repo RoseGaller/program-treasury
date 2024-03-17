@@ -16,8 +16,8 @@ public class DynamicRouteConfiguration {
     private ServerProperties serverProperties;
 
     @Bean
-    DynamicRouteLocator dynamicRouteLocator(){
-        DynamicRouteLocator dynamicRouteLocator = new DynamicRouteLocator(serverProperties.getServlet().getContextPath(),zuulProperties);
+    DynamicRouteLocator dynamicRouteLocator() {
+        DynamicRouteLocator dynamicRouteLocator = new DynamicRouteLocator(serverProperties.getServlet().getContextPath(), zuulProperties);
         return dynamicRouteLocator;
     }
 }
